@@ -12,3 +12,4 @@ git remote -v-->list all currently configured remote repositories
 git pull-->fetch and merge changes on remote server to working directory
 git log-->view changes
 git rm -r-->Remove a file or folder
+ 
