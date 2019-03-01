@@ -5,10 +5,14 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import javax.imageio.ImageIO;
 
@@ -25,14 +29,17 @@ public class BaseClass {
 	// launch browser
 	public void launchBrowser(String browserName, String url) {
 		if (browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.driver.chrome", getFolderPath("drivers", "chromedriver.exe"));
+			System.setProperty("webdriver.chrome.driver", getFolderPath("drivers", "chromedriver.exe"));
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.driver.gecko", getFolderPath("drivers", "geckodriver.exe"));
+			System.setProperty("webdriver.gecko.driver", getFolderPath("drivers", "geckodriver.exe"));
 			driver = new FirefoxDriver();
 		} else {
 			throw new RuntimeException("invalid browser name");
 		}
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	// sleep
@@ -100,13 +107,21 @@ public class BaseClass {
 		return System.getProperty("user.dir") + File.separator + folderName + File.separator + fileName;
 
 	}
-
-	public static void main(String[] args) {
-		BaseClass obj = new BaseClass();
-		String path = obj.getFolderPath("drivers", "chromedriver.exe");
-		System.out.println(path);
-		System.out.println(obj.getDateTime());
-
+	
+	//read property from config.properties file
+	public String readProperty(String propName) {
+		//create FileInputStream class object
+		try {
+			FileInputStream fis = new FileInputStream(getFolderPath(".\\", "config.properties"));
+			Properties prop = new Properties();
+			prop.load(fis);
+			return prop.getProperty(propName);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return "";
+		}
+		
 	}
 
+	
 }

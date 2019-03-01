@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21763" started-at="2019-02-22T10:45:06Z" finished-at="2019-02-22T10:45:28Z">
+  <suite name="basic suite" duration-ms="17819" started-at="2019-03-01T10:24:37Z" finished-at="2019-03-01T10:24:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21763" started-at="2019-02-22T10:45:06Z" finished-at="2019-02-22T10:45:28Z">
+    <test name="basic test" duration-ms="17819" started-at="2019-03-01T10:24:37Z" finished-at="2019-03-01T10:24:55Z">
       <class name="in.srssprojects.keximbank.TestExecution">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:in.srssprojects.keximbank.TestExecution@55f3ddb1]" name="launchBrowser" duration-ms="13363" started-at="2019-02-22T10:45:06Z" finished-at="2019-02-22T10:45:20Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.TestExecution@3ffc5af1]" name="browserLaunch" is-config="true" duration-ms="8452" started-at="2019-03-01T10:24:38Z" finished-at="2019-03-01T10:24:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.TestExecution@55f3ddb1]" name="loginTest" duration-ms="3794" started-at="2019-02-22T10:45:20Z" finished-at="2019-02-22T10:45:24Z">
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.TestExecution@3ffc5af1]" name="loginTest" duration-ms="3100" started-at="2019-03-01T10:24:46Z" finished-at="2019-03-01T10:24:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="createRole()[pri:2, instance:in.srssprojects.keximbank.TestExecution@55f3ddb1]" name="createRole" duration-ms="4549" started-at="2019-02-22T10:45:24Z" finished-at="2019-02-22T10:45:28Z">
+        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.TestExecution@3ffc5af1]" name="roleCreationReset" duration-ms="2754" started-at="2019-03-01T10:24:49Z" finished-at="2019-03-01T10:24:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createRole -->
+        </test-method> <!-- roleCreationReset -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.TestExecution@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="3459" started-at="2019-03-01T10:24:52Z" finished-at="2019-03-01T10:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- in.srssprojects.keximbank.TestExecution -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- basic test -->
+  </suite> <!-- basic suite -->
 </testng-results>

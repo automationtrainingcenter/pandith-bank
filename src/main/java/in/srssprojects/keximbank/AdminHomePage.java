@@ -46,4 +46,10 @@ public class AdminHomePage {
 		this.roles.click();
 		return PageFactory.initElements(driver, RolesDetailsPage.class);
 	}
+	
+	//click on logout button
+	public BankHomePage clickLogout() {
+		this.logout.click();
+		return PageFactory.initElements(driver, BankHomePage.class);
+	}
 }
