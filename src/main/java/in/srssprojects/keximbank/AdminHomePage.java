@@ -52,4 +52,9 @@ public class AdminHomePage {
 		this.logout.click();
 		return PageFactory.initElements(driver, BankHomePage.class);
 	}
+	
+	//is admin home page displayed
+	public boolean isAdminHomePageDisplayed() {
+		return driver.getCurrentUrl().contains("adminflow") && this.logout.isDisplayed();
+	}
 }

@@ -1,9 +1,13 @@
 package in.srssprojects.keximbank;
 
+import static org.testng.Assert.assertTrue;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -14,6 +18,7 @@ public class TestExecution extends BaseClass {
 	RolesDetailsPage roleDetailsPageObj;
 	RoleCreationPage roleCreationPageObj;
 	Alert alert;
+	String alertText;
 
 	@BeforeClass
 	public void browserLaunch() {
@@ -27,21 +32,24 @@ public class TestExecution extends BaseClass {
 		bankHomePageObj.fillPasword("Admin");
 		bankHomePageObj.clickLogin();
 		adminHomePageObj = PageFactory.initElements(driver, AdminHomePage.class);
+		Assert.assertTrue(adminHomePageObj.isAdminHomePageDisplayed());
 	}
 
 	@Test(priority = 2)
 	public void createRole() {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
-		roleCreationPageObj.fillRoleName("managerTen");
+		roleCreationPageObj.fillRoleName("managerTwenty");
 		roleCreationPageObj.fillRoleDescription("tenth manager");
 		roleCreationPageObj.selectRoleType("E");
 		alert = roleCreationPageObj.clickSubmit();
-		System.out.println(alert.getText());
+		alertText = alert.getText();
+		Reporter.log("alert came "+alertText);
 		alert.accept();
+		Assert.assertTrue(validateAlertText(alertText, "created Sucessfully"));
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3, dependsOnMethods = {"createRole"})
 	public void createRoleWithDuplicateData() {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
@@ -49,8 +57,10 @@ public class TestExecution extends BaseClass {
 		roleCreationPageObj.fillRoleDescription("tenth manager");
 		roleCreationPageObj.selectRoleType("E");
 		alert = roleCreationPageObj.clickSubmit();
-		System.out.println(alert.getText());
+		alertText = alert.getText();
+		Reporter.log("alert came "+alertText);
 		alert.accept();
+		Assert.assertTrue(validateAlertText(alertText, "already existed"));
 	}
 
 	@Test(priority = 4)
@@ -58,8 +68,10 @@ public class TestExecution extends BaseClass {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
 		alert = roleCreationPageObj.clickSubmit();
-		System.out.println("alert Text");
+		alertText = alert.getText();
+		Reporter.log("alert came "+alertText, true);
 		alert.accept();
+		Assert.assertTrue(validateAlertText(alertText, "please fill in the following fields"));
 
 	}
 
@@ -71,6 +83,7 @@ public class TestExecution extends BaseClass {
 		roleCreationPageObj.fillRoleDescription("eleventh manager");
 		roleCreationPageObj.selectRoleType("E");
 		roleCreationPageObj.clickReset();
+		Assert.assertTrue(roleCreationPageObj.isRoleNameEmpty());
 	}
 
 	@Test(priority = 6)
@@ -78,6 +91,7 @@ public class TestExecution extends BaseClass {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
 		roleDetailsPageObj = roleCreationPageObj.clickCancle();
+		Assert.assertTrue(roleDetailsPageObj.isNewRoleButtonDisplayed());
 	}
 
 	// branch creation with valid data
@@ -98,7 +112,7 @@ public class TestExecution extends BaseClass {
 
 	// employee creation reset
 
-	// employee creatin cancel
+	// employee creation cancel
 	
 	@AfterClass
 	public void closeBrowser() {

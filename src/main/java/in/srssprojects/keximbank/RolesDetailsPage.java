@@ -25,5 +25,11 @@ public class RolesDetailsPage {
 		this.newRoleButton.click();
 		return PageFactory.initElements(driver, RoleCreationPage.class);
 	}
+	
+	
+	//is new role button displayed or not to verify role creation cancel
+	public boolean isNewRoleButtonDisplayed() {
+		return this.newRoleButton.isDisplayed();
+	}
 
 }

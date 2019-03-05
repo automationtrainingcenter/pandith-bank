@@ -120,7 +120,11 @@ public class BaseClass {
 			e.printStackTrace();
 			return "";
 		}
-		
+	}
+	
+	
+	public boolean validateAlertText(String actualAlertText, String expectedAlertText) {
+		return actualAlertText.toLowerCase().contains(expectedAlertText.toLowerCase());
 	}
 
 	
