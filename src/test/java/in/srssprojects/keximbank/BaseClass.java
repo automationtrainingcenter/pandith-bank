@@ -38,7 +38,7 @@ public class BaseClass {
 			throw new RuntimeException("invalid browser name");
 		}
 		driver.get(url);
-		driver.manage().window().maximize();
+//		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 

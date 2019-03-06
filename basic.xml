@@ -3,7 +3,7 @@
 <suite name="basic suite">
 	<test name="basic test">
 		<classes>
-			<class name="in.srssprojects.keximbank.TestExecution">
+			<class name="in.srssprojects.keximbank.BasicExecution">
 				<methods>
 					<include name="loginTest"></include>
 					<include name="roleCreationReset"></include>

@@ -1,213 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
-=======
-<testng-results skipped="1" failed="1" ignored="0" total="6" passed="4">
->>>>>>> 037042c1133cdeefacd78fa347251b44e4426c02
+<testng-results skipped="0" failed="0" ignored="24" total="32" passed="8">
   <reporter-output>
-    <line>
-      <![CDATA[alert came Role Already existed]]>
-    </line>
-    <line>
-      <![CDATA[alert came Please fill in the following fields: 
---Role Name
---Role Type
-]]>
-    </line>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Default suite" duration-ms="83762" started-at="2019-03-06T05:38:05Z" finished-at="2019-03-06T05:39:29Z">
+  <suite name="parallel suite" duration-ms="30474" started-at="2019-03-06T10:11:10Z" finished-at="2019-03-06T10:11:41Z">
     <groups>
+      <group name="valid">
+        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- valid -->
+      <group name="cancel">
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- cancel -->
+      <group name="role">
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- role -->
+      <group name="invalid">
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- invalid -->
+      <group name="reset">
+        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- reset -->
+      <group name="create">
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- create -->
+      <group name="employee">
+        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- employee -->
+      <group name="branch">
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- branch -->
     </groups>
-    <test name="Default test" duration-ms="83762" started-at="2019-03-06T05:38:05Z" finished-at="2019-03-06T05:39:29Z">
-      <class name="in.srssprojects.keximbank.TestExecution">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="launchBrowser" duration-ms="11150" started-at="2019-03-06T05:38:05Z" finished-at="2019-03-06T05:38:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="loginTest" duration-ms="2553" started-at="2019-03-06T05:38:16Z" finished-at="2019-03-06T05:38:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="branckinfo()[pri:2, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="branckinfo" duration-ms="10704" started-at="2019-03-06T05:38:19Z" finished-at="2019-03-06T05:38:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- branckinfo -->
-        <test-method status="PASS" signature="createRole()[pri:3, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="createRole" duration-ms="3007" started-at="2019-03-06T05:38:29Z" finished-at="2019-03-06T05:38:32Z">
-=======
-  <suite name="basic suite" duration-ms="19669" started-at="2019-03-05T10:08:58Z" finished-at="2019-03-05T10:09:18Z">
-    <groups>
-    </groups>
-    <test name="basic test" duration-ms="19669" started-at="2019-03-05T10:08:58Z" finished-at="2019-03-05T10:09:18Z">
-      <class name="in.srssprojects.keximbank.TestExecution">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.TestExecution@523884b2]" name="browserLaunch" is-config="true" duration-ms="7877" started-at="2019-03-05T10:08:58Z" finished-at="2019-03-05T10:09:06Z">
+    <test name="firefox test" duration-ms="28455" started-at="2019-03-06T10:11:10Z" finished-at="2019-03-06T10:11:39Z">
+      <class name="in.srssprojects.keximbank.ParameterExecution">
+        <test-method status="PASS" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="browserLaunch" is-config="true" duration-ms="14891" started-at="2019-03-06T10:11:10Z" finished-at="2019-03-06T10:11:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.srssprojects.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.TestExecution@523884b2]" name="loginTest" duration-ms="2958" started-at="2019-03-05T10:09:06Z" finished-at="2019-03-05T10:09:09Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="loginTest" duration-ms="2064" started-at="2019-03-06T10:11:25Z" finished-at="2019-03-06T10:11:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="FAIL" signature="createRole()[pri:2, instance:in.srssprojects.keximbank.TestExecution@523884b2]" name="createRole" duration-ms="2658" started-at="2019-03-05T10:09:09Z" finished-at="2019-03-05T10:09:12Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.createRole(TestExecution.java:49)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
->>>>>>> 037042c1133cdeefacd78fa347251b44e4426c02
-          <reporter-output>
-            <line>
-              <![CDATA[alert came Role Already existed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createRole -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="createRoleWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="createRoleWithDuplicateData" duration-ms="2327" started-at="2019-03-06T05:38:32Z" finished-at="2019-03-06T05:38:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createRoleWithDuplicateData -->
-        <test-method status="PASS" signature="createRoleWithBlankData()[pri:4, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="createRoleWithBlankData" duration-ms="1235" started-at="2019-03-06T05:38:35Z" finished-at="2019-03-06T05:38:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createRoleWithBlankData -->
-        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="roleCreationReset" duration-ms="2021" started-at="2019-03-06T05:38:36Z" finished-at="2019-03-06T05:38:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- roleCreationReset -->
-        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="roleCreationCancel" duration-ms="1794" started-at="2019-03-06T05:38:38Z" finished-at="2019-03-06T05:38:40Z">
+        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="roleCreationCancel" duration-ms="2042" started-at="2019-03-06T10:11:27Z" finished-at="2019-03-06T10:11:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roleCreationCancel -->
-        <test-method status="PASS" signature="invalidBranchData()[pri:8, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="invalidBranchData" duration-ms="4196" started-at="2019-03-06T05:38:40Z" finished-at="2019-03-06T05:38:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidBranchData -->
-        <test-method status="PASS" signature="duplicateData()[pri:9, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="duplicateData" duration-ms="9535" started-at="2019-03-06T05:38:44Z" finished-at="2019-03-06T05:38:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- duplicateData -->
-        <test-method status="PASS" signature="blankData()[pri:11, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="blankData" duration-ms="1134" started-at="2019-03-06T05:38:54Z" finished-at="2019-03-06T05:38:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- blankData -->
-        <test-method status="PASS" signature="resetData()[pri:12, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="resetData" duration-ms="3859" started-at="2019-03-06T05:38:55Z" finished-at="2019-03-06T05:38:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetData -->
-        <test-method status="PASS" signature="creationCancel()[pri:13, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="creationCancel" duration-ms="1567" started-at="2019-03-06T05:38:59Z" finished-at="2019-03-06T05:39:00Z">
+        <test-method status="PASS" signature="creationCancel()[pri:13, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="creationCancel" duration-ms="2511" started-at="2019-03-06T10:11:29Z" finished-at="2019-03-06T10:11:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creationCancel -->
-        <test-method status="PASS" signature="employeeValidData()[pri:14, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeeValidData" duration-ms="7186" started-at="2019-03-06T05:39:00Z" finished-at="2019-03-06T05:39:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- employeeValidData -->
-        <test-method status="PASS" signature="employeeDuplicateDAta()[pri:15, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeeDuplicateDAta" duration-ms="4989" started-at="2019-03-06T05:39:07Z" finished-at="2019-03-06T05:39:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- employeeDuplicateDAta -->
-        <test-method status="PASS" signature="employeeBlankData()[pri:16, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeeBlankData" duration-ms="4454" started-at="2019-03-06T05:39:12Z" finished-at="2019-03-06T05:39:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- employeeBlankData -->
-        <test-method status="PASS" signature="employeeResetData()[pri:17, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeeResetData" duration-ms="7648" started-at="2019-03-06T05:39:17Z" finished-at="2019-03-06T05:39:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- employeeResetData -->
-        <test-method status="PASS" signature="employeecancelData()[pri:18, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeecancelData" duration-ms="4313" started-at="2019-03-06T05:39:24Z" finished-at="2019-03-06T05:39:29Z">
+        <test-method status="PASS" signature="employeecancelData()[pri:18, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="employeecancelData" duration-ms="3291" started-at="2019-03-06T10:11:32Z" finished-at="2019-03-06T10:11:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- employeecancelData -->
-=======
-        <test-method status="SKIP" signature="createRoleWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@523884b2]" name="createRoleWithDuplicateData" duration-ms="0" started-at="2019-03-05T10:09:12Z" depends-on-methods="in.srssprojects.keximbank.TestExecution.createRole" finished-at="2019-03-05T10:09:12Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestExecution.createRoleWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@523884b2] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestExecution.createRoleWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@523884b2] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createRoleWithDuplicateData -->
-        <test-method status="PASS" signature="createRoleWithBlankData()[pri:4, instance:in.srssprojects.keximbank.TestExecution@523884b2]" name="createRoleWithBlankData" duration-ms="1167" started-at="2019-03-05T10:09:12Z" finished-at="2019-03-05T10:09:13Z">
-          <reporter-output>
-            <line>
-              <![CDATA[alert came Please fill in the following fields: 
---Role Name
---Role Type
-]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createRoleWithBlankData -->
-        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.TestExecution@523884b2]" name="roleCreationReset" duration-ms="2207" started-at="2019-03-05T10:09:13Z" finished-at="2019-03-05T10:09:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- roleCreationReset -->
-        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.TestExecution@523884b2]" name="roleCreationCancel" duration-ms="1576" started-at="2019-03-05T10:09:15Z" finished-at="2019-03-05T10:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- roleCreationCancel -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.TestExecution@523884b2]" name="closeBrowser" is-config="true" duration-ms="1153" started-at="2019-03-05T10:09:17Z" finished-at="2019-03-05T10:09:18Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.ParameterExecution@239963d8]" name="closeBrowser" is-config="true" duration-ms="3627" started-at="2019-03-06T10:11:35Z" finished-at="2019-03-06T10:11:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
->>>>>>> 037042c1133cdeefacd78fa347251b44e4426c02
-      </class> <!-- in.srssprojects.keximbank.TestExecution -->
-    </test> <!-- basic test -->
-  </suite> <!-- basic suite -->
+      </class> <!-- in.srssprojects.keximbank.ParameterExecution -->
+    </test> <!-- firefox test -->
+    <test name="chrome test" duration-ms="30474" started-at="2019-03-06T10:11:10Z" finished-at="2019-03-06T10:11:41Z">
+      <class name="in.srssprojects.keximbank.ParameterExecution">
+        <test-method status="PASS" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="browserLaunch" is-config="true" duration-ms="10602" started-at="2019-03-06T10:11:10Z" finished-at="2019-03-06T10:11:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.srssprojects.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="loginTest" duration-ms="3324" started-at="2019-03-06T10:11:21Z" finished-at="2019-03-06T10:11:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="roleCreationReset" duration-ms="3317" started-at="2019-03-06T10:11:24Z" finished-at="2019-03-06T10:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreationReset -->
+        <test-method status="PASS" signature="resetData()[pri:12, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="resetData" duration-ms="6485" started-at="2019-03-06T10:11:28Z" finished-at="2019-03-06T10:11:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetData -->
+        <test-method status="PASS" signature="employeeResetData()[pri:17, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="employeeResetData" duration-ms="5931" started-at="2019-03-06T10:11:34Z" finished-at="2019-03-06T10:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeResetData -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.ParameterExecution@6f7fd0e6]" name="closeBrowser" is-config="true" duration-ms="748" started-at="2019-03-06T10:11:40Z" finished-at="2019-03-06T10:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.srssprojects.keximbank.ParameterExecution -->
+    </test> <!-- chrome test -->
+  </suite> <!-- parallel suite -->
 </testng-results>
