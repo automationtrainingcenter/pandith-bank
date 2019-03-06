@@ -5,7 +5,7 @@
     <classes>
       <class name="in.srssprojects.keximbank.TestExecution">
         <methods>
-          <include name="branckinfo"/>
+          <include name="resetData"/>
         </methods>
       </class> <!-- in.srssprojects.keximbank.TestExecution -->
     </classes>

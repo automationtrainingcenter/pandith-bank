@@ -46,4 +46,11 @@ public class AdminHomePage {
 		this.roles.click();
 		return PageFactory.initElements(driver, RolesDetailsPage.class);
 	}
+	// click on employee
+	public EmployeeDetails clickEmployee()
+	{
+		this.employees.click();
+		return PageFactory.initElements(driver, EmployeeDetails.class);
+		
+	}
 }
