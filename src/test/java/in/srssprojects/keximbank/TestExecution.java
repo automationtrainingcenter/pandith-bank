@@ -1,13 +1,18 @@
 package in.srssprojects.keximbank;
 
+import static org.testng.Assert.assertTrue;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TestExecution {
-	WebDriver driver;
+public class TestExecution extends BaseClass {
 	BankHomePage bankHomePageObj;
 	AdminHomePage adminHomePageObj;
 	RolesDetailsPage roleDetailsPageObj;
@@ -16,14 +21,13 @@ public class TestExecution {
 	BranchCreationPage branchcreationobj;
 	EmployeeCreation employeeCreationobj;
 	EmployeeDetails employeeDetailsobj;
-	Alert alert;
 
-	@Test(priority = 0)
-	public void launchBrowser() {
-		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("http://www.srssprojects.in");
+	Alert alert;
+	String alertText;
+
+	@BeforeClass
+	public void browserLaunch() {
+		launchBrowser(readProperty("br_name"), readProperty("url"));
 		bankHomePageObj = new BankHomePage(driver);
 	}
 
@@ -33,21 +37,24 @@ public class TestExecution {
 		bankHomePageObj.fillPasword("Admin");
 		bankHomePageObj.clickLogin();
 		adminHomePageObj = PageFactory.initElements(driver, AdminHomePage.class);
+		Assert.assertTrue(adminHomePageObj.isAdminHomePageDisplayed());
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 2)
 	public void createRole() {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
-		roleCreationPageObj.fillRoleName("managerTen");
+		roleCreationPageObj.fillRoleName("managerTwenty");
 		roleCreationPageObj.fillRoleDescription("tenth manager");
 		roleCreationPageObj.selectRoleType("E");
 		alert = roleCreationPageObj.clickSubmit();
-		System.out.println(alert.getText());
+		alertText = alert.getText();
+		Reporter.log("alert came " + alertText);
 		alert.accept();
+		Assert.assertTrue(validateAlertText(alertText, "created Sucessfully"));
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3, dependsOnMethods = { "createRole" })
 	public void createRoleWithDuplicateData() {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
@@ -55,8 +62,10 @@ public class TestExecution {
 		roleCreationPageObj.fillRoleDescription("tenth manager");
 		roleCreationPageObj.selectRoleType("E");
 		alert = roleCreationPageObj.clickSubmit();
-		System.out.println(alert.getText());
+		alertText = alert.getText();
+		Reporter.log("alert came " + alertText);
 		alert.accept();
+		Assert.assertTrue(validateAlertText(alertText, "already existed"));
 	}
 
 	@Test(priority = 4)
@@ -64,8 +73,10 @@ public class TestExecution {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
 		alert = roleCreationPageObj.clickSubmit();
-		System.out.println("alert Text");
+		alertText = alert.getText();
+		Reporter.log("alert came " + alertText, true);
 		alert.accept();
+		Assert.assertTrue(validateAlertText(alertText, "please fill in the following fields"));
 
 	}
 
@@ -77,6 +88,7 @@ public class TestExecution {
 		roleCreationPageObj.fillRoleDescription("eleventh manager");
 		roleCreationPageObj.selectRoleType("E");
 		roleCreationPageObj.clickReset();
+		Assert.assertTrue(roleCreationPageObj.isRoleNameEmpty());
 	}
 
 	@Test(priority = 6)
@@ -84,11 +96,12 @@ public class TestExecution {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
 		roleDetailsPageObj = roleCreationPageObj.clickCancle();
+		Assert.assertTrue(roleDetailsPageObj.isNewRoleButtonDisplayed());
 	}
 
 	// branch creation with valid data
 	@Test(priority = 8)
-	public void invalidBranchData() {
+	public void branchCreationValidData() {
 		branchdetailobj = adminHomePageObj.clickBranches();
 		branchcreationobj = branchdetailobj.clicknewbranch();
 		branchcreationobj.branchnam("DDDRRRIII");
@@ -112,7 +125,7 @@ public class TestExecution {
 
 	// branch creation with duplicate data
 	@Test(priority = 9)
-	public void duplicateData() throws Exception {
+	public void branchCreationDuplicateData() throws Exception {
 		branchdetailobj = adminHomePageObj.clickBranches();
 		branchcreationobj = branchdetailobj.clicknewbranch();
 		branchcreationobj.branchnam("computerscience");
@@ -140,7 +153,7 @@ public class TestExecution {
 
 	// branch creation with blank data
 	@Test(priority = 11)
-	public void blankData() throws Exception {
+	public void branchCreaitonBlankData() throws Exception {
 		branchdetailobj = adminHomePageObj.clickBranches();
 		branchcreationobj = branchdetailobj.clicknewbranch();
 		alert = branchcreationobj.subbutton();
@@ -173,7 +186,7 @@ public class TestExecution {
 	public void creationCancel() {
 		branchdetailobj = adminHomePageObj.clickBranches();
 		branchcreationobj = branchdetailobj.clicknewbranch();
-		branchdetailobj= branchcreationobj.clickcancel();
+		branchdetailobj = branchcreationobj.clickcancel();
 
 	}
 
@@ -234,41 +247,17 @@ public class TestExecution {
 
 	// employee creatiOn cancel
 	@Test(priority = 18)
-	public void employeecancelData()
-{
+	public void employeecancelData() {
 		employeeDetailsobj = adminHomePageObj.clickEmployee();
 		employeeCreationobj = employeeDetailsobj.clickNewEmployee();
 		employeeDetailsobj = employeeCreationobj.clickOnCancel();
-		}
+	}
 
-	@Test(priority = 2)
-	public void branckinfo() throws Exception {
-		branchdetailobj = adminHomePageObj.clickBranches();
-		branchcreationobj = branchdetailobj.clicknewbranch();
-		// driver.switchTo().frame(0);
-		System.out.println("clicked on new barnch");
-		branchcreationobj.branchnam("computerscience");
-		Thread.sleep(1000);
-		branchcreationobj.aDDress("7-8-78 hyderabad");
-		branchcreationobj.aDDress2("H-no 4-58-95 hyderabad");
-		branchcreationobj.aDDress3("h no:5-698  secendrabad");
-		// alert.accept();
-		branchcreationobj.aDDress3(" na 523 plot num chandanager");
-
-		branchcreationobj.aRea("hyderabad");
-		branchcreationobj.zIPcod("502032");
-		Thread.sleep(1000);
-
-		branchcreationobj.selcontry("INDIA");
-		Thread.sleep(1000);
-		branchcreationobj.selstate("GOA");
-		Thread.sleep(1000);
-		branchcreationobj.seltcity("GOA");
-
-		alert = branchcreationobj.subbutton();
-		System.out.println(alert.getText());
-		alert.accept();
-		System.out.println("sucessfuly searched the information");
+	@AfterClass
+	public void closeBrowser() {
+		adminHomePageObj.clickLogout();
+		driver.close();
 
 	}
+
 }

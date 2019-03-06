@@ -8,49 +8,58 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AdminHomePage {
 	WebDriver driver;
-	
-	//branches
-	@FindBy(how = How.XPATH, using ="//a[@href='admin_banker_master.aspx']")
+
+	// branches
+	@FindBy(how = How.XPATH, using = "//a[@href='admin_banker_master.aspx']")
 	private WebElement branches;
-	
-	//roles
-	@FindBy(how = How.XPATH, using ="//a[@href='Admin_Roles_details.aspx']")
+
+	// roles
+	@FindBy(how = How.XPATH, using = "//a[@href='Admin_Roles_details.aspx']")
 	private WebElement roles;
-	
-	//employees
-	@FindBy(how = How.XPATH, using ="//a[@href='Admin_Emp_details.aspx']")
+
+	// employees
+	@FindBy(how = How.XPATH, using = "//a[@href='Admin_Emp_details.aspx']")
 	private WebElement employees;
-	
-	//home
-	@FindBy(how = How.XPATH, using ="//a[@href='home.aspx']")
+
+	// home
+	@FindBy(how = How.XPATH, using = "//a[@href='home.aspx']")
 	private WebElement home;
-	
-	//logout
-	@FindBy(how = How.XPATH, using ="//a[@href='home.aspx']")
+
+	// logout
+	@FindBy(how = How.XPATH, using = "//a[@href='home.aspx']")
 	private WebElement logout;
-	
+
 	public AdminHomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	//click on branches
+
+	// click on branches
 	public BranchDetailsPage clickBranches() {
 		this.branches.click();
 		return PageFactory.initElements(driver, BranchDetailsPage.class);
 	}
-	
-	
-	//click on roles
+
+	// click on roles
 	public RolesDetailsPage clickRoles() {
 		this.roles.click();
 		return PageFactory.initElements(driver, RolesDetailsPage.class);
 	}
+
 	// click on employee
-	public EmployeeDetails clickEmployee()
-	{
+	public EmployeeDetails clickEmployee() {
 		this.employees.click();
 		return PageFactory.initElements(driver, EmployeeDetails.class);
-		
+	}
+
+	// click on logout button
+	public BankHomePage clickLogout() {
+		this.logout.click();
+		return PageFactory.initElements(driver, BankHomePage.class);
+	}
+
+	// is admin home page displayed
+	public boolean isAdminHomePageDisplayed() {
+		return driver.getCurrentUrl().contains("adminflow") && this.logout.isDisplayed();
 	}
 }
