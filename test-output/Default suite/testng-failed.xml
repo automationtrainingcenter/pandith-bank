@@ -5,9 +5,7 @@
     <classes>
       <class name="in.srssprojects.keximbank.TestExecution">
         <methods>
-          <include name="loginTest"/>
-          <include name="launchBrowser"/>
-          <include name="createRole"/>
+          <include name="resetData"/>
         </methods>
       </class> <!-- in.srssprojects.keximbank.TestExecution -->
     </classes>

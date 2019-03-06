@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+=======
 <testng-results skipped="1" failed="1" ignored="0" total="6" passed="4">
+>>>>>>> 037042c1133cdeefacd78fa347251b44e4426c02
   <reporter-output>
     <line>
       <![CDATA[alert came Role Already existed]]>
@@ -11,6 +15,26 @@
 ]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
+  <suite name="Default suite" duration-ms="83762" started-at="2019-03-06T05:38:05Z" finished-at="2019-03-06T05:39:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83762" started-at="2019-03-06T05:38:05Z" finished-at="2019-03-06T05:39:29Z">
+      <class name="in.srssprojects.keximbank.TestExecution">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="launchBrowser" duration-ms="11150" started-at="2019-03-06T05:38:05Z" finished-at="2019-03-06T05:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="loginTest" duration-ms="2553" started-at="2019-03-06T05:38:16Z" finished-at="2019-03-06T05:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="branckinfo()[pri:2, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="branckinfo" duration-ms="10704" started-at="2019-03-06T05:38:19Z" finished-at="2019-03-06T05:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branckinfo -->
+        <test-method status="PASS" signature="createRole()[pri:3, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="createRole" duration-ms="3007" started-at="2019-03-06T05:38:29Z" finished-at="2019-03-06T05:38:32Z">
+=======
   <suite name="basic suite" duration-ms="19669" started-at="2019-03-05T10:08:58Z" finished-at="2019-03-05T10:09:18Z">
     <groups>
     </groups>
@@ -64,12 +88,71 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
+>>>>>>> 037042c1133cdeefacd78fa347251b44e4426c02
           <reporter-output>
             <line>
               <![CDATA[alert came Role Already existed]]>
             </line>
           </reporter-output>
         </test-method> <!-- createRole -->
+<<<<<<< HEAD
+        <test-method status="PASS" signature="createRoleWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="createRoleWithDuplicateData" duration-ms="2327" started-at="2019-03-06T05:38:32Z" finished-at="2019-03-06T05:38:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRoleWithDuplicateData -->
+        <test-method status="PASS" signature="createRoleWithBlankData()[pri:4, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="createRoleWithBlankData" duration-ms="1235" started-at="2019-03-06T05:38:35Z" finished-at="2019-03-06T05:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRoleWithBlankData -->
+        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="roleCreationReset" duration-ms="2021" started-at="2019-03-06T05:38:36Z" finished-at="2019-03-06T05:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreationReset -->
+        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="roleCreationCancel" duration-ms="1794" started-at="2019-03-06T05:38:38Z" finished-at="2019-03-06T05:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreationCancel -->
+        <test-method status="PASS" signature="invalidBranchData()[pri:8, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="invalidBranchData" duration-ms="4196" started-at="2019-03-06T05:38:40Z" finished-at="2019-03-06T05:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBranchData -->
+        <test-method status="PASS" signature="duplicateData()[pri:9, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="duplicateData" duration-ms="9535" started-at="2019-03-06T05:38:44Z" finished-at="2019-03-06T05:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateData -->
+        <test-method status="PASS" signature="blankData()[pri:11, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="blankData" duration-ms="1134" started-at="2019-03-06T05:38:54Z" finished-at="2019-03-06T05:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankData -->
+        <test-method status="PASS" signature="resetData()[pri:12, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="resetData" duration-ms="3859" started-at="2019-03-06T05:38:55Z" finished-at="2019-03-06T05:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetData -->
+        <test-method status="PASS" signature="creationCancel()[pri:13, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="creationCancel" duration-ms="1567" started-at="2019-03-06T05:38:59Z" finished-at="2019-03-06T05:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creationCancel -->
+        <test-method status="PASS" signature="employeeValidData()[pri:14, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeeValidData" duration-ms="7186" started-at="2019-03-06T05:39:00Z" finished-at="2019-03-06T05:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeValidData -->
+        <test-method status="PASS" signature="employeeDuplicateDAta()[pri:15, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeeDuplicateDAta" duration-ms="4989" started-at="2019-03-06T05:39:07Z" finished-at="2019-03-06T05:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeDuplicateDAta -->
+        <test-method status="PASS" signature="employeeBlankData()[pri:16, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeeBlankData" duration-ms="4454" started-at="2019-03-06T05:39:12Z" finished-at="2019-03-06T05:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeBlankData -->
+        <test-method status="PASS" signature="employeeResetData()[pri:17, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeeResetData" duration-ms="7648" started-at="2019-03-06T05:39:17Z" finished-at="2019-03-06T05:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeResetData -->
+        <test-method status="PASS" signature="employeecancelData()[pri:18, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="employeecancelData" duration-ms="4313" started-at="2019-03-06T05:39:24Z" finished-at="2019-03-06T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeecancelData -->
+=======
         <test-method status="SKIP" signature="createRoleWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@523884b2]" name="createRoleWithDuplicateData" duration-ms="0" started-at="2019-03-05T10:09:12Z" depends-on-methods="in.srssprojects.keximbank.TestExecution.createRole" finished-at="2019-03-05T10:09:12Z">
           <exception class="java.lang.Throwable">
             <message>
@@ -123,6 +206,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+>>>>>>> 037042c1133cdeefacd78fa347251b44e4426c02
       </class> <!-- in.srssprojects.keximbank.TestExecution -->
     </test> <!-- basic test -->
   </suite> <!-- basic suite -->

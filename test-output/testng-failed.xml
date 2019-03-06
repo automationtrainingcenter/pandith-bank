@@ -5,10 +5,14 @@
     <classes>
       <class name="in.srssprojects.keximbank.TestExecution">
         <methods>
+<<<<<<< HEAD
+          <include name="resetData"/>
+=======
           <include name="createRoleWithDuplicateData"/>
           <include name="createRole"/>
           <include name="closeBrowser"/>
           <include name="browserLaunch"/>
+>>>>>>> 037042c1133cdeefacd78fa347251b44e4426c02
         </methods>
       </class> <!-- in.srssprojects.keximbank.TestExecution -->
     </classes>
