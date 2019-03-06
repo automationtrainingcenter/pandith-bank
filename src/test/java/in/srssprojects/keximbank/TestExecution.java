@@ -51,7 +51,7 @@ public class TestExecution extends BaseClass {
 
 	@Test(priority = 3, dependsOnMethods = {"createRole"})
 	public void createRoleWithDuplicateData() {
-		roleDetailsPageObj = adminHomePageObj.clickRoles();
+		roleDetailsPageObj = adminHomePageObj.clickRoles( );
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
 		roleCreationPageObj.fillRoleName("managerTen");
 		roleCreationPageObj.fillRoleDescription("tenth manager");
