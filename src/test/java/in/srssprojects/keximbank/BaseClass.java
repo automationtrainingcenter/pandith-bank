@@ -97,7 +97,7 @@ public class BaseClass {
 	
 
 	// get folder path
-	public String getFolderPath(String folderName, String fileName) {
+	public static String getFolderPath(String folderName, String fileName) {
 //		String os_name = System.getProperty("os.name").toLowerCase();
 //		if(os_name.contains("win")) {
 //			return System.getProperty("user.dir")+File.separator+folderName+File.separator+fileName+".exe";

@@ -1,77 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="7" ignored="15" total="23" passed="1">
-  <reporter-output>
-    <line>
-      <![CDATA[alert came Branch name already Exist]]>
-    </line>
-    <line>
-      <![CDATA[alert came Role Already existed]]>
-    </line>
-    <line>
-      <![CDATA[alert came Role Already existed]]>
-    </line>
-    <line>
-      <![CDATA[alert came Role Already existed]]>
-    </line>
-    <line>
-      <![CDATA[alert came Role Already existed]]>
-    </line>
-    <line>
-      <![CDATA[alert came Role Already existed]]>
-    </line>
-    <line>
-      <![CDATA[alert came Role Already existed]]>
-    </line>
-  </reporter-output>
-  <suite name="basic suite" duration-ms="27224" started-at="2019-03-07T10:23:35Z" finished-at="2019-03-07T10:24:02Z">
-    <groups>
-      <group name="cancel">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- cancel -->
-      <group name="valid">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- valid -->
-      <group name="datadriven">
-        <method signature="TestExecution.branchCreationDDWithoutDP()[pri:19, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="branchCreationDDWithoutDP" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- datadriven -->
-      <group name="role">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- role -->
-      <group name="invalid">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- invalid -->
-      <group name="reset">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- reset -->
-      <group name="create">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- create -->
-      <group name="employee">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- employee -->
-      <group name="branch">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- branch -->
-    </groups>
-    <test name="basic test" duration-ms="27224" started-at="2019-03-07T10:23:35Z" finished-at="2019-03-07T10:24:02Z">
-      <class name="in.srssprojects.keximbank.BasicExecution">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="browserLaunch" is-config="true" duration-ms="7492" started-at="2019-03-07T10:23:35Z" finished-at="2019-03-07T10:23:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" duration-ms="3880" started-at="2019-03-07T10:23:43Z" finished-at="2019-03-07T10:23:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="FAIL" signature="branchCreationDDWithoutDP()[pri:19, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="branchCreationDDWithoutDP" duration-ms="4380" started-at="2019-03-07T10:23:47Z" finished-at="2019-03-07T10:23:51Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+<!-- Generated by org.testng.reporters.JUnitReportReporter -->
+<testsuite skipped="0" hostname="SuryaPC" name="in.srssprojects.keximbank.BasicExecution" tests="8" failures="7" timestamp="07 Mar 2019 10:24:03 GMT" time="18.917" errors="0">
+  <testcase name="loginTest" time="3.880" classname="in.srssprojects.keximbank.BasicExecution"/>
+  <testcase name="branchCreationDDWithoutDP" time="4.380" classname="in.srssprojects.keximbank.BasicExecution">
+    <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+      <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
@@ -103,33 +36,11 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[alert came Branch name already Exist]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- branchCreationDDWithoutDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="2163" started-at="2019-03-07T10:23:51Z" data-provider="role_data" finished-at="2019-03-07T10:23:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarOne]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+    </failure>
+  </testcase> <!-- branchCreationDDWithoutDP -->
+  <testcase name="roleCreationWithDDusingDP" time="2.060" classname="in.srssprojects.keximbank.BasicExecution">
+    <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+      <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
@@ -161,33 +72,11 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[alert came Role Already existed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="2060" started-at="2019-03-07T10:23:53Z" data-provider="role_data" finished-at="2019-03-07T10:23:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarTwo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+    </failure>
+  </testcase> <!-- roleCreationWithDDusingDP -->
+  <testcase name="roleCreationWithDDusingDP" time="1.597" classname="in.srssprojects.keximbank.BasicExecution">
+    <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+      <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
@@ -219,33 +108,11 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[alert came Role Already existed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="1597" started-at="2019-03-07T10:23:55Z" data-provider="role_data" finished-at="2019-03-07T10:23:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarThree]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+    </failure>
+  </testcase> <!-- roleCreationWithDDusingDP -->
+  <testcase name="roleCreationWithDDusingDP" time="2.163" classname="in.srssprojects.keximbank.BasicExecution">
+    <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+      <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
@@ -277,33 +144,11 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[alert came Role Already existed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="1608" started-at="2019-03-07T10:23:57Z" data-provider="role_data" finished-at="2019-03-07T10:23:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarFour]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+    </failure>
+  </testcase> <!-- roleCreationWithDDusingDP -->
+  <testcase name="roleCreationWithDDusingDP" time="1.608" classname="in.srssprojects.keximbank.BasicExecution">
+    <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+      <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
@@ -335,33 +180,11 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[alert came Role Already existed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="1585" started-at="2019-03-07T10:23:58Z" data-provider="role_data" finished-at="2019-03-07T10:24:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarFive]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+    </failure>
+  </testcase> <!-- roleCreationWithDDusingDP -->
+  <testcase name="roleCreationWithDDusingDP" time="1.644" classname="in.srssprojects.keximbank.BasicExecution">
+    <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+      <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
@@ -393,33 +216,11 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[alert came Role Already existed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="1644" started-at="2019-03-07T10:24:00Z" data-provider="role_data" finished-at="2019-03-07T10:24:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarSix]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+    </failure>
+  </testcase> <!-- roleCreationWithDDusingDP -->
+  <testcase name="roleCreationWithDDusingDP" time="1.585" classname="in.srssprojects.keximbank.BasicExecution">
+    <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+      <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
@@ -451,19 +252,6 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[alert came Role Already existed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="closeBrowser" is-config="true" duration-ms="723" started-at="2019-03-07T10:24:02Z" finished-at="2019-03-07T10:24:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- in.srssprojects.keximbank.BasicExecution -->
-    </test> <!-- basic test -->
-  </suite> <!-- basic suite -->
-</testng-results>
+    </failure>
+  </testcase> <!-- roleCreationWithDDusingDP -->
+</testsuite> <!-- in.srssprojects.keximbank.BasicExecution -->

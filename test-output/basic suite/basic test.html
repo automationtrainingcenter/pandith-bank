@@ -55,13 +55,13 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>basic test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 05 15:38:58 IST 2019</td>
+<td>Started on:</td><td>Thu Mar 07 15:53:35 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19669 ms)</td>
+<tr><td>Total time:</td><td>27 seconds (27224 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td></td>
+<td>Included groups:</td><td>datadriven </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
@@ -75,23 +75,69 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='in.srssprojects.keximbank.TestExecution.createRole()'><b>createRole</b><br>Test class: in.srssprojects.keximbank.TestExecution<br/>
-<a href="#Output-2084559714" onClick='toggleBox("Output-2084559714", this, "Show output", "Hide output");'>Show output</a>
+<td title='in.srssprojects.keximbank.BasicExecution.branchCreationDDWithoutDP()'><b>branchCreationDDWithoutDP</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br/>
+<a href="#Output-1509309988" onClick='toggleBox("Output-1509309988", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2084559714" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2084559714">
-alert came Role Already existed<br/>
+<a href="#Output-1509309988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1509309988">
+alert came Branch name already Exist<br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at in.srssprojects.keximbank.TestExecution.createRole(TestExecution.java:49)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2084559714", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2084559714'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.branchCreationDDWithoutDP(TestExecution.java:272)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1509309988", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1509309988'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertTrue(Assert.java:44)
 	at org.testng.Assert.assertTrue(Assert.java:54)
-	at in.srssprojects.keximbank.TestExecution.createRole(TestExecution.java:49)
+	at in.srssprojects.keximbank.TestExecution.branchCreationDDWithoutDP(TestExecution.java:272)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>in.srssprojects.keximbank.BasicExecution@47c62251</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.roleCreationWithDDusingDP()'><b>roleCreationWithDDusingDP</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br>Parameters: JrAssoManagarOne, E<br/>
+<a href="#Output-1803093683" onClick='toggleBox("Output-1803093683", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1803093683" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1803093683">
+alert came Role Already existed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1803093683", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1803093683'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -119,59 +165,33 @@ alert came Role Already existed<br/>
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>2</td>
-<td>in.srssprojects.keximbank.TestExecution@523884b2</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>in.srssprojects.keximbank.BasicExecution@47c62251</td></tr>
 <tr>
-<td title='in.srssprojects.keximbank.TestExecution.createRoleWithBlankData()'><b>createRoleWithBlankData</b><br>Test class: in.srssprojects.keximbank.TestExecution<br/>
-<a href="#Output-682910755" onClick='toggleBox("Output-682910755", this, "Show output", "Hide output");'>Show output</a>
+<td title='in.srssprojects.keximbank.BasicExecution.roleCreationWithDDusingDP()'><b>roleCreationWithDDusingDP</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br>Parameters: JrAssoManagarTwo, E<br/>
+<a href="#Output-1756819670" onClick='toggleBox("Output-1756819670", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-682910755" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-682910755">
-alert came Please fill in the following fields: 
---Role Name
---Role Type
-<br/>
+<a href="#Output-1756819670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1756819670">
+alert came Role Already existed<br/>
 </div>
 </td>
-<td></td>
-<td>1</td>
-<td>in.srssprojects.keximbank.TestExecution@523884b2</td></tr>
-<tr>
-<td title='in.srssprojects.keximbank.TestExecution.loginTest()'><b>loginTest</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
-<td></td>
-<td>2</td>
-<td>in.srssprojects.keximbank.TestExecution@523884b2</td></tr>
-<tr>
-<td title='in.srssprojects.keximbank.TestExecution.roleCreationCancel()'><b>roleCreationCancel</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
-<td></td>
-<td>1</td>
-<td>in.srssprojects.keximbank.TestExecution@523884b2</td></tr>
-<tr>
-<td title='in.srssprojects.keximbank.TestExecution.roleCreationReset()'><b>roleCreationReset</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
-<td></td>
-<td>2</td>
-<td>in.srssprojects.keximbank.TestExecution@523884b2</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='in.srssprojects.keximbank.TestExecution.createRoleWithDuplicateData()'><b>createRoleWithDuplicateData</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
-<td><div><pre>java.lang.Throwable: Method TestExecution.createRoleWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@523884b2] depends on not successfully finished methods
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1620823990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1620823990'><pre>java.lang.Throwable: Method TestExecution.createRoleWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@523884b2] depends on not successfully finished methods
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1756819670", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1756819670'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -190,8 +210,205 @@ alert came Please fill in the following fields:
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>null</td></tr>
+<td>2</td>
+<td>in.srssprojects.keximbank.BasicExecution@47c62251</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.roleCreationWithDDusingDP()'><b>roleCreationWithDDusingDP</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br>Parameters: JrAssoManagarThree, E<br/>
+<a href="#Output-1037955032" onClick='toggleBox("Output-1037955032", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1037955032" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1037955032">
+alert came Role Already existed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1037955032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1037955032'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>in.srssprojects.keximbank.BasicExecution@47c62251</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.roleCreationWithDDusingDP()'><b>roleCreationWithDDusingDP</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br>Parameters: JrAssoManagarFour, E<br/>
+<a href="#Output-1049590050" onClick='toggleBox("Output-1049590050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1049590050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1049590050">
+alert came Role Already existed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1049590050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1049590050'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>in.srssprojects.keximbank.BasicExecution@47c62251</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.roleCreationWithDDusingDP()'><b>roleCreationWithDDusingDP</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br>Parameters: JrAssoManagarFive, E<br/>
+<a href="#Output-1635082651" onClick='toggleBox("Output-1635082651", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1635082651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1635082651">
+alert came Role Already existed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1635082651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1635082651'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>in.srssprojects.keximbank.BasicExecution@47c62251</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.roleCreationWithDDusingDP()'><b>roleCreationWithDDusingDP</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br>Parameters: JrAssoManagarSix, E<br/>
+<a href="#Output-1572127577" onClick='toggleBox("Output-1572127577", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1572127577" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572127577">
+alert came Role Already existed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1572127577", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1572127577'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>in.srssprojects.keximbank.BasicExecution@47c62251</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.loginTest()'><b>loginTest</b><br>Test class: in.srssprojects.keximbank.BasicExecution</td>
+<td></td>
+<td>3</td>
+<td>in.srssprojects.keximbank.BasicExecution@47c62251</td></tr>
 </table><p>
 </body>
 </html>

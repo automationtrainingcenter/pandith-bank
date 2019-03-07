@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [browser compatability suite]">
-  <parameter name="url" value="http://www.srssprojects.in"/>
-  <test thread-count="5" name="firefox test(failed)">
-    <parameter name="browserName" value="firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [basic suite]">
+  <test thread-count="5" name="basic test(failed)">
     <groups>
       <run>
-        <include name="cancel"/>
+        <include name="datadriven"/>
       </run>
     </groups>
     <classes>
-      <class name="in.srssprojects.keximbank.ParameterExecution">
+      <class name="in.srssprojects.keximbank.BasicExecution">
         <methods>
-          <include name="creationCancel"/>
-          <include name="loginTest"/>
-          <include name="roleCreationCancel"/>
-          <include name="employeecancelData"/>
+          <include name="roleCreationWithDDusingDP" invocation-numbers="0 1 2 3 4 5"/>
           <include name="browserLaunch"/>
+          <include name="branchCreationDDWithoutDP"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- in.srssprojects.keximbank.ParameterExecution -->
+      </class> <!-- in.srssprojects.keximbank.BasicExecution -->
     </classes>
-  </test> <!-- firefox test(failed) -->
-</suite> <!-- Failed suite [browser compatability suite] -->
+  </test> <!-- basic test(failed) -->
+</suite> <!-- Failed suite [basic suite] -->

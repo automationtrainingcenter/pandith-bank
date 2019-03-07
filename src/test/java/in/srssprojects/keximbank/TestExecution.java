@@ -20,10 +20,9 @@ public class TestExecution extends BaseClass {
 
 	Alert alert;
 	String alertText;
+	ExcelHelper excel;
 
-	
-
-	@Test(priority = 1, groups = {"role", "employee", "branch", "cancel", "valid", "reset", "invalid", "create"})
+	@Test(priority = 1, groups = {"datadriven", "role", "employee", "branch", "cancel", "valid", "reset", "invalid", "create" })
 	public void loginTest() {
 		bankHomePageObj.fillUserName("Admin");
 		bankHomePageObj.fillPasword("Admin");
@@ -32,7 +31,7 @@ public class TestExecution extends BaseClass {
 		Assert.assertTrue(adminHomePageObj.isAdminHomePageDisplayed());
 	}
 
-	@Test(priority = 2, groups = { "role", "create", "valid" })
+	@Test(priority = 2, groups = { "role", "create", "valid",  })
 	public void createRole() {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
@@ -244,7 +243,52 @@ public class TestExecution extends BaseClass {
 		employeeDetailsobj = employeeCreationobj.clickOnCancel();
 	}
 
-	@AfterClass(groups = {"role", "employee", "branch", "cancel", "valid", "reset", "invalid", "create"})
+	// branch creation with multiple sets of data from excel file without using
+	// DataProvider annotation
+	@Test(priority = 19, groups = { "datadriven" })
+	public void branchCreationDDWithoutDP() {
+		excel = new ExcelHelper();
+		branchdetailobj = adminHomePageObj.clickBranches();
+		excel.setExcelToReadData("testdata.xls", "branchdata");
+		int nor = excel.getRowCount();
+		for (int r = 1; r < nor; r++) {
+			String bName = excel.readData(r, 0);
+			String add1 = excel.readData(r, 1);
+			String zipcode = excel.readData(r, 2);
+			String country = excel.readData(r, 3);
+			String state = excel.readData(r, 4);
+			String city = excel.readData(r, 5);
+			branchcreationobj = branchdetailobj.clicknewbranch();
+			branchcreationobj.branchnam(bName);
+			branchcreationobj.aDDress(add1);
+			branchcreationobj.zIPcod(zipcode);
+			branchcreationobj.selcontry(country);
+			branchcreationobj.selstate(state);
+			branchcreationobj.seltcity(city);
+			alert = branchcreationobj.subbutton();
+			alertText = alert.getText();
+			Reporter.log("alert came " + alertText);
+			alert.accept();
+			Assert.assertTrue(validateAlertText(alertText, "created Sucessfully"));
+		}
+	}
+
+	// role creation with multiple sets of data using DataProvider annotation
+	@Test(priority = 20, groups = {
+			"datadriven" }, dataProviderClass = DataProviderClass.class, dataProvider = "role_data")
+	public void roleCreationWithDDusingDP(String roleName, String roleType) {
+		roleDetailsPageObj = adminHomePageObj.clickRoles();
+		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
+		roleCreationPageObj.fillRoleName(roleName);
+		roleCreationPageObj.selectRoleType(roleType);
+		alert = roleCreationPageObj.clickSubmit();
+		alertText = alert.getText();
+		Reporter.log("alert came " + alertText);
+		alert.accept();
+		Assert.assertTrue(validateAlertText(alertText, "created Sucessfully"));
+	}
+
+	@AfterClass(groups = { "datadriven","role", "employee", "branch", "cancel", "valid", "reset", "invalid", "create" })
 	public void closeBrowser() {
 		adminHomePageObj.clickLogout();
 		driver.close();

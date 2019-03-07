@@ -2,15 +2,20 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [basic suite]">
   <test thread-count="5" name="basic test(failed)">
+    <groups>
+      <run>
+        <include name="datadriven"/>
+      </run>
+    </groups>
     <classes>
-      <class name="in.srssprojects.keximbank.TestExecution">
+      <class name="in.srssprojects.keximbank.BasicExecution">
         <methods>
-          <include name="createRoleWithDuplicateData"/>
-          <include name="createRole"/>
-          <include name="closeBrowser"/>
+          <include name="roleCreationWithDDusingDP" invocation-numbers="0 1 2 3 4 5"/>
           <include name="browserLaunch"/>
+          <include name="branchCreationDDWithoutDP"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- in.srssprojects.keximbank.TestExecution -->
+      </class> <!-- in.srssprojects.keximbank.BasicExecution -->
     </classes>
   </test> <!-- basic test(failed) -->
 </suite> <!-- Failed suite [basic suite] -->
