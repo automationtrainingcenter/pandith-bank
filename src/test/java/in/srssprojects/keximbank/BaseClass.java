@@ -22,6 +22,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 public class BaseClass {
 	WebDriver driver;
@@ -37,6 +38,14 @@ public class BaseClass {
 		} else {
 			throw new RuntimeException("invalid browser name");
 		}
+		// create an object of EventFiringWebDriver class
+		EventFiringWebDriver edriver = new EventFiringWebDriver(driver);
+		// cretea an object of listener class with EventFiringWebDriver
+		Listener listener = new Listener();
+		// register the listener with EventFiringWebDriver
+		edriver.register(listener);
+		driver = edriver;
+		
 		driver.get(url);
 //		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -67,7 +76,7 @@ public class BaseClass {
 		File srcImage = ts.getScreenshotAs(OutputType.FILE);
 		File desImage = new File(getFolderPath(folderName, fileName));
 		try {
-			//saving screenshot using ImageIO and BufferedImage classes of Java
+			// saving screenshot using ImageIO and BufferedImage classes of Java
 //			BufferedImage bi = ImageIO.read(srcImage);
 //			ImageIO.write(bi, "png", desImage);
 			FileUtils.copyFile(srcImage, desImage);
@@ -85,7 +94,7 @@ public class BaseClass {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 	}
 
 	// get date and time
@@ -94,7 +103,6 @@ public class BaseClass {
 		DateFormat df = new SimpleDateFormat("dd_MMM_yy-HH_mm_ss");
 		return df.format(date);
 	}
-	
 
 	// get folder path
 	public static String getFolderPath(String folderName, String fileName) {
@@ -107,10 +115,10 @@ public class BaseClass {
 		return System.getProperty("user.dir") + File.separator + folderName + File.separator + fileName;
 
 	}
-	
-	//read property from config.properties file
+
+	// read property from config.properties file
 	public String readProperty(String propName) {
-		//create FileInputStream class object
+		// create FileInputStream class object
 		try {
 			FileInputStream fis = new FileInputStream(getFolderPath(".\\", "config.properties"));
 			Properties prop = new Properties();
@@ -121,11 +129,9 @@ public class BaseClass {
 			return "";
 		}
 	}
-	
-	
+
 	public boolean validateAlertText(String actualAlertText, String expectedAlertText) {
 		return actualAlertText.toLowerCase().contains(expectedAlertText.toLowerCase());
 	}
 
-	
 }

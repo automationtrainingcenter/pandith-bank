@@ -1,469 +1,1270 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="7" ignored="15" total="23" passed="1">
+<testng-results skipped="0" failed="0" ignored="11" total="18" passed="7">
   <reporter-output>
     <line>
-      <![CDATA[alert came Branch name already Exist]]>
+      <![CDATA[locating an element usin By.id: txtuId]]>
     </line>
     <line>
-      <![CDATA[alert came Role Already existed]]>
+      <![CDATA[element located succesfully]]>
     </line>
     <line>
-      <![CDATA[alert came Role Already existed]]>
+      <![CDATA[changing element value]]>
     </line>
     <line>
-      <![CDATA[alert came Role Already existed]]>
+      <![CDATA[element value changed toAdmin]]>
     </line>
     <line>
-      <![CDATA[alert came Role Already existed]]>
+      <![CDATA[locating an element usin By.id: txtPword]]>
     </line>
     <line>
-      <![CDATA[alert came Role Already existed]]>
+      <![CDATA[element located succesfully]]>
     </line>
     <line>
-      <![CDATA[alert came Role Already existed]]>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed toAdmin]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: login]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='home.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: btnRoles]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtRname]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed tomangerEleven]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtRDesc]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed toeleventh manager]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lstRtypeN]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lstRtypeN]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lstRtypeN]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "E"]]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: Btn_Reset]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtRname]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: btnRoles]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin by id or name "Btn_cancel"]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: btnRoles]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: BtnNewBR]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath:  //input[@id='txtbName']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed toelectronics]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtAdd1]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed to7-81-78 hyderabad]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: Txtadd2]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed toH-no 41-58-95 hyderabad]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtadd3]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed toh no:54-698  secendrabad]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtArea]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed tohyb]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtZip]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed to50203]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_counrtyU]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_counrtyU]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_counrtyU]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "INDIA"]]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_stateI]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_stateI]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_stateI]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "GOA"]]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_cityI]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_cityI]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_cityI]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "GOA"]]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: Btn_Reset]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: BtnNewBR]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: Btn_cancel]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: BtnNew]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtUname]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed tosecuremaster]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtLpwd]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element value changed tosecure]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_Roles]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_Roles]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_Roles]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "manager"]]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_Branch]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_Branch]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: lst_Branch]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "@"]]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: btnreset]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: BtnNew]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: btnCancel]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='home.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
     </line>
   </reporter-output>
-  <suite name="basic suite" duration-ms="27224" started-at="2019-03-07T10:23:35Z" finished-at="2019-03-07T10:24:02Z">
+  <suite name="parameter suite" duration-ms="55279" started-at="2019-03-11T12:04:08Z" finished-at="2019-03-11T12:05:03Z">
     <groups>
       <group name="cancel">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- cancel -->
       <group name="valid">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- valid -->
       <group name="datadriven">
-        <method signature="TestExecution.branchCreationDDWithoutDP()[pri:19, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="branchCreationDDWithoutDP" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- datadriven -->
       <group name="role">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- role -->
       <group name="invalid">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- invalid -->
       <group name="reset">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- reset -->
       <group name="create">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- create -->
       <group name="employee">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- employee -->
       <group name="branch">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- branch -->
     </groups>
-    <test name="basic test" duration-ms="27224" started-at="2019-03-07T10:23:35Z" finished-at="2019-03-07T10:24:02Z">
-      <class name="in.srssprojects.keximbank.BasicExecution">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="browserLaunch" is-config="true" duration-ms="7492" started-at="2019-03-07T10:23:35Z" finished-at="2019-03-07T10:23:43Z">
+    <test name="parameter test" duration-ms="55279" started-at="2019-03-11T12:04:08Z" finished-at="2019-03-11T12:05:03Z">
+      <class name="in.srssprojects.keximbank.ParameterExecution">
+        <test-method status="PASS" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="browserLaunch" is-config="true" duration-ms="10376" started-at="2019-03-11T12:04:08Z" finished-at="2019-03-11T12:04:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.srssprojects.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="loginTest" duration-ms="3880" started-at="2019-03-07T10:23:43Z" finished-at="2019-03-07T10:23:47Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="loginTest" duration-ms="3715" started-at="2019-03-11T12:04:18Z" finished-at="2019-03-11T12:04:22Z">
           <reporter-output>
+            <line>
+              <![CDATA[locating an element usin By.id: txtuId]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed toAdmin]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtPword]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed toAdmin]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: login]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.xpath: //a[@href='home.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="FAIL" signature="branchCreationDDWithoutDP()[pri:19, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="branchCreationDDWithoutDP" duration-ms="4380" started-at="2019-03-07T10:23:47Z" finished-at="2019-03-07T10:23:51Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.branchCreationDDWithoutDP(TestExecution.java:272)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="roleCreationReset" duration-ms="3957" started-at="2019-03-11T12:04:22Z" finished-at="2019-03-11T12:04:26Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came Branch name already Exist]]>
+              <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: btnRoles]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtRname]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed tomangerEleven]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtRDesc]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed toeleventh manager]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lstRtypeN]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lstRtypeN]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lstRtypeN]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "E"]]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: Btn_Reset]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtRname]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- branchCreationDDWithoutDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="2163" started-at="2019-03-07T10:23:51Z" data-provider="role_data" finished-at="2019-03-07T10:23:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarOne]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- roleCreationReset -->
+        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="roleCreationCancel" duration-ms="2533" started-at="2019-03-11T12:04:26Z" finished-at="2019-03-11T12:04:29Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came Role Already existed]]>
+              <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: btnRoles]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin by id or name "Btn_cancel"]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: btnRoles]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="2060" started-at="2019-03-07T10:23:53Z" data-provider="role_data" finished-at="2019-03-07T10:23:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarTwo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- roleCreationCancel -->
+        <test-method status="PASS" signature="resetData()[pri:12, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="resetData" duration-ms="6292" started-at="2019-03-11T12:04:29Z" finished-at="2019-03-11T12:04:35Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came Role Already existed]]>
+              <![CDATA[locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: BtnNewBR]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.xpath:  //input[@id='txtbName']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed toelectronics]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtAdd1]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed to7-81-78 hyderabad]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: Txtadd2]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed toH-no 41-58-95 hyderabad]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtadd3]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed toh no:54-698  secendrabad]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtArea]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed tohyb]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtZip]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed to50203]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_counrtyU]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_counrtyU]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_counrtyU]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "INDIA"]]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_stateI]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_stateI]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_stateI]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "GOA"]]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_cityI]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_cityI]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_cityI]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "GOA"]]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: Btn_Reset]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="1597" started-at="2019-03-07T10:23:55Z" data-provider="role_data" finished-at="2019-03-07T10:23:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarThree]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- resetData -->
+        <test-method status="PASS" signature="creationCancel()[pri:13, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="creationCancel" duration-ms="1743" started-at="2019-03-11T12:04:35Z" finished-at="2019-03-11T12:04:37Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came Role Already existed]]>
+              <![CDATA[locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: BtnNewBR]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: Btn_cancel]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="1608" started-at="2019-03-07T10:23:57Z" data-provider="role_data" finished-at="2019-03-07T10:23:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarFour]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- creationCancel -->
+        <test-method status="PASS" signature="employeeResetData()[pri:17, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="employeeResetData" duration-ms="10871" started-at="2019-03-11T12:04:37Z" finished-at="2019-03-11T12:04:48Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came Role Already existed]]>
+              <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: BtnNew]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtUname]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed tosecuremaster]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtLpwd]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed tosecure]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_Roles]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_Roles]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_Roles]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "manager"]]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_Branch]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_Branch]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: lst_Branch]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.xpath: .//option[normalize-space(.) = "@"]]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: btnreset]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="1585" started-at="2019-03-07T10:23:58Z" data-provider="role_data" finished-at="2019-03-07T10:24:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarFive]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- employeeResetData -->
+        <test-method status="PASS" signature="employeecancelData()[pri:18, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="employeecancelData" duration-ms="11817" started-at="2019-03-11T12:04:48Z" finished-at="2019-03-11T12:04:59Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came Role Already existed]]>
+              <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: BtnNew]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: btnCancel]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="FAIL" signature="roleCreationWithDDusingDP(java.lang.String, java.lang.String)[pri:20, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="roleCreationWithDDusingDP" duration-ms="1644" started-at="2019-03-07T10:24:00Z" data-provider="role_data" finished-at="2019-03-07T10:24:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JrAssoManagarSix]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.roleCreationWithDDusingDP(TestExecution.java:288)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- employeecancelData -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.ParameterExecution@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="3914" started-at="2019-03-11T12:04:59Z" finished-at="2019-03-11T12:05:03Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came Role Already existed]]>
+              <![CDATA[locating an element usin By.xpath: //a[@href='home.aspx']]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithDDusingDP -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.BasicExecution@47c62251]" name="closeBrowser" is-config="true" duration-ms="723" started-at="2019-03-07T10:24:02Z" finished-at="2019-03-07T10:24:02Z">
-          <reporter-output>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- in.srssprojects.keximbank.BasicExecution -->
-    </test> <!-- basic test -->
-  </suite> <!-- basic suite -->
+      </class> <!-- in.srssprojects.keximbank.ParameterExecution -->
+    </test> <!-- parameter test -->
+  </suite> <!-- parameter suite -->
 </testng-results>
