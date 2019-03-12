@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-parameter_suite">
-              <span class="suite-name border-passed">parameter suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-groups_suite">
+              <span class="suite-name border-failed">groups suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-parameter_suite">
-                    <span>D:\SSTS\sonali\keximbank\parameter.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-groups_suite">
+                    <span>D:\SSTS\sonali\keximbank\groups.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-parameter_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-groups_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-parameter_suite">
+                  <a href="#" class="navigator-link " panel-name="group-groups_suite">
                     <span>9 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-parameter_suite">
+                  <a href="#" class="navigator-link " panel-name="times-groups_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-parameter_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-groups_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-parameter_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-groups_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-parameter_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-groups_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,51 +91,60 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-groups_suite" class="hide-methods failed suite-groups_suite"> (hide)</a> <!-- hide-methods failed suite-groups_suite -->
+                      <a href="#" panel-name="suite-groups_suite" class="show-methods failed suite-groups_suite"> (show)</a> <!-- show-methods failed suite-groups_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-groups_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-groups_suite" title="in.srssprojects.keximbank.BasicExecution" hash-for-method="employeeResetData">employeeResetData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-groups_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-parameter_suite" class="hide-methods passed suite-parameter_suite"> (hide)</a> <!-- hide-methods passed suite-parameter_suite -->
-                      <a href="#" panel-name="suite-parameter_suite" class="show-methods passed suite-parameter_suite"> (show)</a> <!-- show-methods passed suite-parameter_suite -->
+                      <a href="#" panel-name="suite-groups_suite" class="hide-methods passed suite-groups_suite"> (hide)</a> <!-- hide-methods passed suite-groups_suite -->
+                      <a href="#" panel-name="suite-groups_suite" class="show-methods passed suite-groups_suite"> (show)</a> <!-- show-methods passed suite-groups_suite -->
                     </span>
-                    <div class="method-list-content passed suite-parameter_suite">
+                    <div class="method-list-content passed suite-groups_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-parameter_suite" title="in.srssprojects.keximbank.ParameterExecution" hash-for-method="creationCancel">creationCancel</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-groups_suite" title="in.srssprojects.keximbank.BasicExecution" hash-for-method="creationCancel">creationCancel</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-parameter_suite" title="in.srssprojects.keximbank.ParameterExecution" hash-for-method="employeeResetData">employeeResetData</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-groups_suite" title="in.srssprojects.keximbank.BasicExecution" hash-for-method="employeecancelData">employeecancelData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-parameter_suite" title="in.srssprojects.keximbank.ParameterExecution" hash-for-method="employeecancelData">employeecancelData</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-groups_suite" title="in.srssprojects.keximbank.BasicExecution" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-parameter_suite" title="in.srssprojects.keximbank.ParameterExecution" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-groups_suite" title="in.srssprojects.keximbank.BasicExecution" hash-for-method="resetData">resetData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-parameter_suite" title="in.srssprojects.keximbank.ParameterExecution" hash-for-method="resetData">resetData</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-groups_suite" title="in.srssprojects.keximbank.BasicExecution" hash-for-method="roleCreationCancel">roleCreationCancel</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-parameter_suite" title="in.srssprojects.keximbank.ParameterExecution" hash-for-method="roleCreationCancel">roleCreationCancel</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-groups_suite" title="in.srssprojects.keximbank.BasicExecution" hash-for-method="roleCreationReset">roleCreationReset</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-parameter_suite" title="in.srssprojects.keximbank.ParameterExecution" hash-for-method="roleCreationReset">roleCreationReset</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-parameter_suite -->
+                    </div> <!-- method-list-content passed suite-groups_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -146,11 +155,30 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-parameter_suite" class="panel parameter_suite">
-          <div class="suite-parameter_suite-class-passed">
+        <div panel-name="suite-groups_suite" class="panel groups_suite">
+          <div class="suite-groups_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">in.srssprojects.keximbank.BasicExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeResetData">
+                  </a> <!-- employeeResetData -->
+                  <span class="method-name">employeeResetData</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.employeeResetData(TestExecution.java:237)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-groups_suite-class-failed -->
+          <div class="suite-groups_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">in.srssprojects.keximbank.ParameterExecution</span>
+              <span class="class-name">in.srssprojects.keximbank.BasicExecution</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -158,13 +186,6 @@
                   <a name="creationCancel">
                   </a> <!-- creationCancel -->
                   <span class="method-name">creationCancel</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="employeeResetData">
-                  </a> <!-- employeeResetData -->
-                  <span class="method-name">employeeResetData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -203,20 +224,18 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-parameter_suite-class-passed -->
-        </div> <!-- panel parameter_suite -->
-        <div panel-name="test-xml-parameter_suite" class="panel">
+          </div> <!-- suite-groups_suite-class-passed -->
+        </div> <!-- panel groups_suite -->
+        <div panel-name="test-xml-groups_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\SSTS\sonali\keximbank\parameter.xml</span>
+            <span class="header-content">D:\SSTS\sonali\keximbank\groups.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;parameter suite&quot;&gt;
-  &lt;parameter name=&quot;url&quot; value=&quot;http://www.srssprojects.in&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;parameter test&quot;&gt;
-    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;groups suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;groups test&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;reset&quot;/&gt;
@@ -224,28 +243,28 @@
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;in.srssprojects.keximbank.ParameterExecution&quot;/&gt;
+      &lt;class name=&quot;in.srssprojects.keximbank.BasicExecution&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- parameter test --&gt;
-&lt;/suite&gt; &lt;!-- parameter suite --&gt;
+  &lt;/test&gt; &lt;!-- groups test --&gt;
+&lt;/suite&gt; &lt;!-- groups suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-parameter_suite" class="panel">
+        <div panel-name="testlist-groups_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for parameter suite</span>
+            <span class="header-content">Tests for groups suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">parameter test (1 class)</span>
+                <span class="test-name">groups test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-parameter_suite" class="panel">
+        <div panel-name="group-groups_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for parameter suite</span>
+            <span class="header-content">Groups for groups suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -394,15 +413,15 @@
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-parameter_suite" class="panel">
+        <div panel-name="times-groups_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for parameter suite</span>
+            <span class="header-content">Times for groups suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_parameter_suite');
-function tableData_parameter_suite() {
+suiteTableInitFunctions.push('tableData_groups_suite');
+function tableData_groups_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -410,129 +429,48 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'employeecancelData')
-data.setCell(0, 2, 'in.srssprojects.keximbank.ParameterExecution')
-data.setCell(0, 3, 11817);
+data.setCell(0, 1, 'employeeResetData')
+data.setCell(0, 2, 'in.srssprojects.keximbank.BasicExecution')
+data.setCell(0, 3, 8374);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'employeeResetData')
-data.setCell(1, 2, 'in.srssprojects.keximbank.ParameterExecution')
-data.setCell(1, 3, 10871);
+data.setCell(1, 1, 'resetData')
+data.setCell(1, 2, 'in.srssprojects.keximbank.BasicExecution')
+data.setCell(1, 3, 6468);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'resetData')
-data.setCell(2, 2, 'in.srssprojects.keximbank.ParameterExecution')
-data.setCell(2, 3, 6292);
+data.setCell(2, 1, 'employeecancelData')
+data.setCell(2, 2, 'in.srssprojects.keximbank.BasicExecution')
+data.setCell(2, 3, 5975);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'roleCreationReset')
-data.setCell(3, 2, 'in.srssprojects.keximbank.ParameterExecution')
-data.setCell(3, 3, 3957);
+data.setCell(3, 1, 'loginTest')
+data.setCell(3, 2, 'in.srssprojects.keximbank.BasicExecution')
+data.setCell(3, 3, 3195);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTest')
-data.setCell(4, 2, 'in.srssprojects.keximbank.ParameterExecution')
-data.setCell(4, 3, 3715);
+data.setCell(4, 1, 'roleCreationReset')
+data.setCell(4, 2, 'in.srssprojects.keximbank.BasicExecution')
+data.setCell(4, 3, 2809);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'roleCreationCancel')
-data.setCell(5, 2, 'in.srssprojects.keximbank.ParameterExecution')
-data.setCell(5, 3, 2533);
+data.setCell(5, 1, 'creationCancel')
+data.setCell(5, 2, 'in.srssprojects.keximbank.BasicExecution')
+data.setCell(5, 3, 1817);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'creationCancel')
-data.setCell(6, 2, 'in.srssprojects.keximbank.ParameterExecution')
-data.setCell(6, 3, 1743);
-window.suiteTableData['parameter_suite']= { tableData: data, tableDiv: 'times-div-parameter_suite'}
+data.setCell(6, 1, 'roleCreationCancel')
+data.setCell(6, 2, 'in.srssprojects.keximbank.BasicExecution')
+data.setCell(6, 3, 1298);
+window.suiteTableData['groups_suite']= { tableData: data, tableDiv: 'times-div-groups_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
-              <div id="times-div-parameter_suite">
-              </div> <!-- times-div-parameter_suite -->
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-groups_suite">
+              </div> <!-- times-div-groups_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-parameter_suite" class="panel">
+        <div panel-name="reporter-groups_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for parameter suite</span>
+            <span class="header-content">Reporter output for groups suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">employeeResetData</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin By.id: BtnNew</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin By.id: txtUname</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">changing element value</span>
-                <span class="reporter-method-output">element value changed tosecuremaster</span>
-                <span class="reporter-method-output">locating an element usin By.id: txtLpwd</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">changing element value</span>
-                <span class="reporter-method-output">element value changed tosecure</span>
-                <span class="reporter-method-output">locating an element usin By.id: lst_Roles</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">locating an element usin By.id: lst_Roles</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">locating an element usin By.id: lst_Roles</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">locating an element usin By.xpath: .//option[normalize-space(.) = "manager"]</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin By.id: lst_Branch</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">locating an element usin By.id: lst_Branch</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">locating an element usin By.id: lst_Branch</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">locating an element usin By.xpath: .//option[normalize-space(.) = "@"]</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin By.id: btnreset</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">loginTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">locating an element usin By.id: txtuId</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">changing element value</span>
-                <span class="reporter-method-output">element value changed toAdmin</span>
-                <span class="reporter-method-output">locating an element usin By.id: txtPword</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">changing element value</span>
-                <span class="reporter-method-output">element value changed toAdmin</span>
-                <span class="reporter-method-output">locating an element usin By.id: login</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin By.xpath: //a[@href='home.aspx']</span>
-                <span class="reporter-method-output">element located succesfully</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">employeecancelData</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin By.id: BtnNew</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin By.id: btnCancel</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">roleCreationReset</span>
               <div class="reporter-method-output-div">
@@ -567,25 +505,6 @@ return data;
                 <span class="reporter-method-output">clicking on that element</span>
                 <span class="reporter-method-output">element clicked</span>
                 <span class="reporter-method-output">locating an element usin By.id: txtRname</span>
-                <span class="reporter-method-output">element located succesfully</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">roleCreationCancel</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin By.id: btnRoles</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin by id or name "Btn_cancel"</span>
-                <span class="reporter-method-output">element located succesfully</span>
-                <span class="reporter-method-output">clicking on that element</span>
-                <span class="reporter-method-output">element clicked</span>
-                <span class="reporter-method-output">locating an element usin By.id: btnRoles</span>
                 <span class="reporter-method-output">element located succesfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -677,15 +596,115 @@ return data;
                 <span class="reporter-method-output">element clicked</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">roleCreationCancel</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin By.id: btnRoles</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin by id or name "Btn_cancel"</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin By.id: btnRoles</span>
+                <span class="reporter-method-output">element located succesfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">employeecancelData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin By.id: BtnNew</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin By.id: btnCancel</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">locating an element usin By.id: txtuId</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">changing element value</span>
+                <span class="reporter-method-output">element value changed toAdmin</span>
+                <span class="reporter-method-output">locating an element usin By.id: txtPword</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">changing element value</span>
+                <span class="reporter-method-output">element value changed toAdmin</span>
+                <span class="reporter-method-output">locating an element usin By.id: login</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin By.xpath: //a[@href='home.aspx']</span>
+                <span class="reporter-method-output">element located succesfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">employeeResetData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin By.id: BtnNew</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin By.id: txtUname</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">changing element value</span>
+                <span class="reporter-method-output">element value changed tosecuremaster</span>
+                <span class="reporter-method-output">locating an element usin By.id: txtLpwd</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">changing element value</span>
+                <span class="reporter-method-output">element value changed tosecure</span>
+                <span class="reporter-method-output">locating an element usin By.id: lst_Roles</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">locating an element usin By.id: lst_Roles</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">locating an element usin By.id: lst_Roles</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">locating an element usin By.xpath: .//option[normalize-space(.) = "manager"]</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin By.id: lst_Branch</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">locating an element usin By.id: lst_Branch</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">locating an element usin By.id: lst_Branch</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">locating an element usin By.xpath: .//option[normalize-space(.) = "@"]</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+                <span class="reporter-method-output">locating an element usin By.id: btnreset</span>
+                <span class="reporter-method-output">element located succesfully</span>
+                <span class="reporter-method-output">clicking on that element</span>
+                <span class="reporter-method-output">element clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-parameter_suite" class="panel">
+        <div panel-name="ignored-methods-groups_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">11 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">in.srssprojects.keximbank.ParameterExecution</span>
+              <span class="ignored-class-name">in.srssprojects.keximbank.BasicExecution</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">branchCreationValidData</span>
                 <br/>
@@ -713,48 +732,50 @@ return data;
             </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-parameter_suite" class="panel">
+        <div panel-name="chronological-groups_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">in.srssprojects.keximbank.ParameterExecution</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">in.srssprojects.keximbank.BasicExecution</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">browserLaunch(http://www.srssprojects.in, chrome)</span>
+                <span class="method-name">browserLaunch</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">10387 ms</span>
+                <span class="method-start">9173 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">roleCreationReset</span>
-                <span class="method-start">14108 ms</span>
+                <span class="method-start">12368 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">roleCreationCancel</span>
-                <span class="method-start">18067 ms</span>
+                <span class="method-start">15180 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">resetData</span>
-                <span class="method-start">20602 ms</span>
+                <span class="method-start">16478 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">creationCancel</span>
-                <span class="method-start">26899 ms</span>
+                <span class="method-start">22950 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">employeeResetData</span>
-                <span class="method-start">28646 ms</span>
+                <span class="method-start">24771 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">employeecancelData</span>
-                <span class="method-start">39520 ms</span>
+                <span class="method-start">33943 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">51339 ms</span>
+                <span class="method-start">39918 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

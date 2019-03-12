@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>groups test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 06 15:09:48 IST 2019</td>
+<td>Started on:</td><td>Tue Mar 12 15:34:41 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>37 seconds (37893 ms)</td>
+<tr><td>Total time:</td><td>41 seconds (41219 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>cancel reset </td>
 </tr><tr>
@@ -67,6 +67,99 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.employeeResetData()'><b>employeeResetData</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br/>
+<a href="#Output-1389509050" onClick='toggleBox("Output-1389509050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1389509050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1389509050">
+locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: BtnNew<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: txtUname<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed tosecuremaster<br/>
+locating an element usin By.id: txtLpwd<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed tosecure<br/>
+locating an element usin By.id: lst_Roles<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_Roles<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_Roles<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "manager"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: lst_Branch<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_Branch<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_Branch<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "@"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnreset<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.employeeResetData(TestExecution.java:237)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1389509050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1389509050'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at in.srssprojects.keximbank.TestExecution.employeeResetData(TestExecution.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>8</td>
+<td>in.srssprojects.keximbank.BasicExecution@1794d431</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,40 +168,221 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='in.srssprojects.keximbank.TestExecution.creationCancel()'><b>creationCancel</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
+<td title='in.srssprojects.keximbank.BasicExecution.creationCancel()'><b>creationCancel</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br/>
+<a href="#Output-1544078442" onClick='toggleBox("Output-1544078442", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1544078442" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1544078442">
+locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: BtnNewBR<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: Btn_cancel<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+</div>
+</td>
 <td></td>
 <td>1</td>
-<td>in.srssprojects.keximbank.TestExecution@3532ec19</td></tr>
+<td>in.srssprojects.keximbank.BasicExecution@1794d431</td></tr>
 <tr>
-<td title='in.srssprojects.keximbank.TestExecution.employeeResetData()'><b>employeeResetData</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
+<td title='in.srssprojects.keximbank.BasicExecution.employeecancelData()'><b>employeecancelData</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br/>
+<a href="#Output-1028145537" onClick='toggleBox("Output-1028145537", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1028145537" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1028145537">
+locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: BtnNew<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnCancel<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+</div>
+</td>
 <td></td>
 <td>5</td>
-<td>in.srssprojects.keximbank.TestExecution@3532ec19</td></tr>
+<td>in.srssprojects.keximbank.BasicExecution@1794d431</td></tr>
 <tr>
-<td title='in.srssprojects.keximbank.TestExecution.employeecancelData()'><b>employeecancelData</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
+<td title='in.srssprojects.keximbank.BasicExecution.loginTest()'><b>loginTest</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br/>
+<a href="#Output-40170008" onClick='toggleBox("Output-40170008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-40170008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-40170008">
+locating an element usin By.id: txtuId<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toAdmin<br/>
+locating an element usin By.id: txtPword<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toAdmin<br/>
+locating an element usin By.id: login<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.xpath: //a[@href='home.aspx']<br/>
+element located succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>in.srssprojects.keximbank.BasicExecution@1794d431</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.resetData()'><b>resetData</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br/>
+<a href="#Output-211090736" onClick='toggleBox("Output-211090736", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-211090736" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-211090736">
+locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: BtnNewBR<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.xpath:  //input[@id='txtbName']<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toelectronics<br/>
+locating an element usin By.id: txtAdd1<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed to7-81-78 hyderabad<br/>
+locating an element usin By.id: Txtadd2<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toH-no 41-58-95 hyderabad<br/>
+locating an element usin By.id: txtadd3<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toh no:54-698  secendrabad<br/>
+locating an element usin By.id: txtArea<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed tohyb<br/>
+locating an element usin By.id: txtZip<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed to50203<br/>
+locating an element usin By.id: lst_counrtyU<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_counrtyU<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_counrtyU<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "INDIA"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: lst_stateI<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_stateI<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_stateI<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "GOA"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: lst_cityI<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_cityI<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_cityI<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "GOA"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: Btn_Reset<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>in.srssprojects.keximbank.BasicExecution@1794d431</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.roleCreationCancel()'><b>roleCreationCancel</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br/>
+<a href="#Output-139947936" onClick='toggleBox("Output-139947936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-139947936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-139947936">
+locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnRoles<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin by id or name "Btn_cancel"<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnRoles<br/>
+element located succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>in.srssprojects.keximbank.BasicExecution@1794d431</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.BasicExecution.roleCreationReset()'><b>roleCreationReset</b><br>Test class: in.srssprojects.keximbank.BasicExecution<br/>
+<a href="#Output-1634387050" onClick='toggleBox("Output-1634387050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1634387050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1634387050">
+locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnRoles<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: txtRname<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed tomangerEleven<br/>
+locating an element usin By.id: txtRDesc<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toeleventh manager<br/>
+locating an element usin By.id: lstRtypeN<br/>
+element located succesfully<br/>
+locating an element usin By.id: lstRtypeN<br/>
+element located succesfully<br/>
+locating an element usin By.id: lstRtypeN<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "E"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: Btn_Reset<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: txtRname<br/>
+element located succesfully<br/>
+</div>
+</td>
 <td></td>
 <td>2</td>
-<td>in.srssprojects.keximbank.TestExecution@3532ec19</td></tr>
-<tr>
-<td title='in.srssprojects.keximbank.TestExecution.loginTest()'><b>loginTest</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
-<td></td>
-<td>3</td>
-<td>in.srssprojects.keximbank.TestExecution@3532ec19</td></tr>
-<tr>
-<td title='in.srssprojects.keximbank.TestExecution.resetData()'><b>resetData</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
-<td></td>
-<td>5</td>
-<td>in.srssprojects.keximbank.TestExecution@3532ec19</td></tr>
-<tr>
-<td title='in.srssprojects.keximbank.TestExecution.roleCreationCancel()'><b>roleCreationCancel</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
-<td></td>
-<td>1</td>
-<td>in.srssprojects.keximbank.TestExecution@3532ec19</td></tr>
-<tr>
-<td title='in.srssprojects.keximbank.TestExecution.roleCreationReset()'><b>roleCreationReset</b><br>Test class: in.srssprojects.keximbank.TestExecution</td>
-<td></td>
-<td>3</td>
-<td>in.srssprojects.keximbank.TestExecution@3532ec19</td></tr>
+<td>in.srssprojects.keximbank.BasicExecution@1794d431</td></tr>
 </table><p>
 </body>
 </html>

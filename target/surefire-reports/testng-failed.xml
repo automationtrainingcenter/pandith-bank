@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [in.srssprojects.keximbank.TestExecution]">
-  <test thread-count="5" verbose="0" name="Command line test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [groups suite]">
+  <test thread-count="5" verbose="0" name="groups test(failed)">
+    <groups>
+      <run>
+        <include name="reset"/>
+        <include name="cancel"/>
+      </run>
+    </groups>
     <classes>
-      <class name="in.srssprojects.keximbank.TestExecution">
+      <class name="in.srssprojects.keximbank.BasicExecution">
         <methods>
-          <include name="branckinfo"/>
+          <include name="employeeResetData"/>
+          <include name="browserLaunch"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- in.srssprojects.keximbank.TestExecution -->
+      </class> <!-- in.srssprojects.keximbank.BasicExecution -->
     </classes>
-  </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [in.srssprojects.keximbank.TestExecution] -->
+  </test> <!-- groups test(failed) -->
+</suite> <!-- Failed suite [groups suite] -->

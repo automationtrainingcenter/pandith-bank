@@ -8,23 +8,31 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.testng.Reporter;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 public class Listener implements WebDriverEventListener {
 	JavascriptExecutor js;
 
 	public void beforeAlertAccept(WebDriver driver) {
 		Reporter.log("alert came " + driver.switchTo().alert().getText());
+		TestListener.test.log(LogStatus.INFO, "alert came " + driver.switchTo().alert().getText());
 	}
+	
 
 	public void afterAlertAccept(WebDriver driver) {
 		Reporter.log("alert accepted");
+		TestListener.test.log(LogStatus.INFO, "alert accepted");
 	}
+	
 
 	public void afterAlertDismiss(WebDriver driver) {
 		Reporter.log("alert came " + driver.switchTo().alert().getText());
+		TestListener.test.log(LogStatus.INFO, "alert came " + driver.switchTo().alert().getText());
 	}
 
 	public void beforeAlertDismiss(WebDriver driver) {
 		Reporter.log("alert dimissed");
+		TestListener.test.log(LogStatus.INFO, "alert dimissed");
 	}
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
@@ -69,27 +77,34 @@ public class Listener implements WebDriverEventListener {
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
 		Reporter.log("locating an element usin " + by);
+		TestListener.test.log(LogStatus.INFO, "locating an element usin " + by);
 	}
 
 	public void afterFindBy(By by, WebElement element, WebDriver driver) {
 		Reporter.log("element located succesfully");
+		TestListener.test.log(LogStatus.INFO,"element located succesfully");
 	}
 
 	public void beforeClickOn(WebElement element, WebDriver driver) {
 		Reporter.log("clicking on that element");
+		TestListener.test.log(LogStatus.INFO,"clicking on that element");
 	}
 
 	public void afterClickOn(WebElement element, WebDriver driver) {
 		Reporter.log("element clicked");
+		TestListener.test.log(LogStatus.INFO,"element clicked");
 	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
 		Reporter.log("changing element value");
+		TestListener.test.log(LogStatus.INFO, "changing element value");
 	}
 
 	public void afterChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
 		js = (JavascriptExecutor) driver;
 		Reporter.log("element value changed to" + js.executeScript("return arguments[0].value", element).toString());
+		TestListener.test.log(LogStatus.INFO,
+				"element value changed to" + js.executeScript("return arguments[0].value", element).toString());
 	}
 
 	public void beforeScript(String script, WebDriver driver) {

@@ -47,7 +47,7 @@ public class BaseClass {
 		driver = edriver;
 		
 		driver.get(url);
-//		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
@@ -71,7 +71,7 @@ public class BaseClass {
 	}
 
 	// take screenshot
-	public void captureScreenshot(String folderName, String fileName) {
+	public String captureScreenshot(String folderName, String fileName) {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File srcImage = ts.getScreenshotAs(OutputType.FILE);
 		File desImage = new File(getFolderPath(folderName, fileName));
@@ -83,18 +83,20 @@ public class BaseClass {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		return desImage.getAbsolutePath();
 	}
 
 	// take alert screenshot
-	public void captureAlertScreen(String folderName, String fileName) {
+	public static String captureAlertScreen(String folderName, String fileName) {
+		File destImg = new File(getFolderPath(folderName, fileName));
 		try {
 			Robot r = new Robot();
 			BufferedImage bi = r.createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
-			ImageIO.write(bi, "png", new File(getFolderPath(folderName, fileName)));
+			ImageIO.write(bi, "png", destImg);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
+		return destImg.getAbsolutePath();
 	}
 
 	// get date and time
