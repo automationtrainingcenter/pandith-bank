@@ -6,8 +6,9 @@ import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -18,10 +19,13 @@ import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 public class BaseClass {
@@ -45,7 +49,44 @@ public class BaseClass {
 		// register the listener with EventFiringWebDriver
 		edriver.register(listener);
 		driver = edriver;
-		
+
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+
+	public void launchBrowser(String browserName, String url, String node, String os) {
+		DesiredCapabilities caps = new DesiredCapabilities();
+		if (browserName.equalsIgnoreCase("chrome")) {
+			caps = DesiredCapabilities.chrome();
+		}
+		if (browserName.equalsIgnoreCase("firefox")) {
+			caps = DesiredCapabilities.firefox();
+		}
+		if (os.equals("windows")) {
+			caps.setPlatform(Platform.WINDOWS);
+		}
+		if (os.equals("mac")) {
+			caps.setPlatform(Platform.MAC);
+		}
+		if (os.equals("linux")) {
+			caps.setPlatform(Platform.LINUX);
+		}
+
+		try {
+			driver = new RemoteWebDriver(new URL(node), caps);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+
+		// create an object of EventFiringWebDriver class
+		EventFiringWebDriver edriver = new EventFiringWebDriver(driver);
+		// cretea an object of listener class with EventFiringWebDriver
+		Listener listener = new Listener();
+		// register the listener with EventFiringWebDriver
+		edriver.register(listener);
+		driver = edriver;
+
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -115,7 +156,6 @@ public class BaseClass {
 //			return System.getProperty("user.dir")+File.separator+folderName+File.separator+fileName;
 //		}
 		return System.getProperty("user.dir") + File.separator + folderName + File.separator + fileName;
-
 	}
 
 	// read property from config.properties file

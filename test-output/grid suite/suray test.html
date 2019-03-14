@@ -1,0 +1,316 @@
+<html>
+<head>
+<title>TestNG:  suray test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suray test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 14 15:51:18 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29889 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>reset </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='in.srssprojects.keximbank.GridExecution.employeeResetData()'><b>employeeResetData</b><br>Test class: in.srssprojects.keximbank.GridExecution<br/>
+<a href="#Output-265217716" onClick='toggleBox("Output-265217716", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-265217716" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-265217716">
+locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: BtnNew<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: txtUname<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed tosecuremaster<br/>
+locating an element usin By.id: txtLpwd<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed tosecure<br/>
+locating an element usin By.id: lst_Roles<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_Roles<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_Roles<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "manager"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: lst_Branch<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_Branch<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_Branch<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "@"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnreset<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at in.srssprojects.keximbank.TestExecution.employeeResetData(TestExecution.java:238)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace265217716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace265217716'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at in.srssprojects.keximbank.TestExecution.employeeResetData(TestExecution.java:238)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>5</td>
+<td>in.srssprojects.keximbank.GridExecution@548e7350</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='in.srssprojects.keximbank.GridExecution.loginTest()'><b>loginTest</b><br>Test class: in.srssprojects.keximbank.GridExecution<br/>
+<a href="#Output-1788245646" onClick='toggleBox("Output-1788245646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1788245646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1788245646">
+locating an element usin By.id: txtuId<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toAdmin<br/>
+locating an element usin By.id: txtPword<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toAdmin<br/>
+locating an element usin By.id: login<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.xpath: //a[@href='home.aspx']<br/>
+element located succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>in.srssprojects.keximbank.GridExecution@548e7350</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.GridExecution.resetData()'><b>resetData</b><br>Test class: in.srssprojects.keximbank.GridExecution<br/>
+<a href="#Output-553868842" onClick='toggleBox("Output-553868842", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-553868842" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-553868842">
+locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: BtnNewBR<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.xpath:  //input[@id='txtbName']<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toelectronics<br/>
+locating an element usin By.id: txtAdd1<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed to7-81-78 hyderabad<br/>
+locating an element usin By.id: Txtadd2<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toH-no 41-58-95 hyderabad<br/>
+locating an element usin By.id: txtadd3<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toh no:54-698  secendrabad<br/>
+locating an element usin By.id: txtArea<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed tohyb<br/>
+locating an element usin By.id: txtZip<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed to50203<br/>
+locating an element usin By.id: lst_counrtyU<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_counrtyU<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_counrtyU<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "INDIA"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: lst_stateI<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_stateI<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_stateI<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "GOA"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: lst_cityI<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_cityI<br/>
+element located succesfully<br/>
+locating an element usin By.id: lst_cityI<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "GOA"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: Btn_Reset<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>in.srssprojects.keximbank.GridExecution@548e7350</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.GridExecution.roleCreationReset()'><b>roleCreationReset</b><br>Test class: in.srssprojects.keximbank.GridExecution<br/>
+<a href="#Output-1810711627" onClick='toggleBox("Output-1810711627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1810711627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1810711627">
+locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnRoles<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: txtRname<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed tomangerEleven<br/>
+locating an element usin By.id: txtRDesc<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toeleventh manager<br/>
+locating an element usin By.id: lstRtypeN<br/>
+element located succesfully<br/>
+locating an element usin By.id: lstRtypeN<br/>
+element located succesfully<br/>
+locating an element usin By.id: lstRtypeN<br/>
+element located succesfully<br/>
+locating an element usin By.xpath: .//option[normalize-space(.) = "E"]<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: Btn_Reset<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: txtRname<br/>
+element located succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>in.srssprojects.keximbank.GridExecution@548e7350</td></tr>
+</table><p>
+</body>
+</html>

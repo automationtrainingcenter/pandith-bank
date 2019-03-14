@@ -11,76 +11,70 @@ import org.openqa.selenium.support.ui.Select;
 
 public class RoleCreationPage {
 	private WebDriver driver;
-	//role name
-	@FindBy(how =How.ID, using = "txtRname")
+	// role name
+	@FindBy(how = How.ID, using = "txtRname")
 	private WebElement roleName;
-	
-	//role description
-	@FindBy(how =How.ID, using = "txtRDesc")
+
+	// role description
+	@FindBy(how = How.ID, using = "txtRDesc")
 	private WebElement roleDescription;
-	
+
 	// role type
-	@FindBy(how =How.ID, using = "lstRtypeN")
+	@FindBy(how = How.ID, using = "lstRtypeN")
 	private WebElement roleType;
-	
-	//submit
-	@FindBy(how =How.ID, using = "btninsert")
+
+	// submit
+	@FindBy(how = How.ID, using = "btninsert")
 	private WebElement submit;
-	
-	//reset
-	@FindBy(how =How.ID, using = "Btn_Reset")
+
+	// reset
+	@FindBy(how = How.ID, using = "Btn_Reset")
 	private WebElement reset;
-	
-	//cancel
-	@FindBy(how =How.ID_OR_NAME, using = "Btn_cancel")
+
+	// cancel
+	@FindBy(how = How.ID_OR_NAME, using = "Btn_cancel")
 	private WebElement cancel;
 
-	
-	
 	public RoleCreationPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	
-	//fill role name
+	// fill role name
 	public void fillRoleName(String roleName) {
 		this.roleName.sendKeys(roleName);
 	}
-	
-	
-	//fill role description
+
+	// fill role description
 	public void fillRoleDescription(String roleDescription) {
 		this.roleDescription.sendKeys(roleDescription);
 	}
-	
-	
-	//select role type
+
+	// select role type
 	public void selectRoleType(String roleType) {
 		new Select(this.roleType).selectByVisibleText(roleType);
 	}
-	
-	//click submit
+
+	// click submit
 	public Alert clickSubmit() {
 		this.submit.click();
 		return driver.switchTo().alert();
 	}
-	
-	
-	//click reset
+
+	// click reset
 	public void clickReset() {
 		this.reset.click();
 	}
-	
-	//click cancel
+
+	// click cancel
 	public RolesDetailsPage clickCancle() {
 		this.cancel.click();
 		return PageFactory.initElements(driver, RolesDetailsPage.class);
 	}
-	
-	//role creation reset validation
+
+	// role creation reset validation
 	public boolean isRoleNameEmpty() {
-		JavascriptExecutor js = (JavascriptExecutor)driver;
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		return js.executeScript("return arguments[0].value", this.roleName).toString().isEmpty();
 	}
 }

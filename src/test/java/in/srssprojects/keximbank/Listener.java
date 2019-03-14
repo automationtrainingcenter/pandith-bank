@@ -17,13 +17,11 @@ public class Listener implements WebDriverEventListener {
 		Reporter.log("alert came " + driver.switchTo().alert().getText());
 		TestListener.test.log(LogStatus.INFO, "alert came " + driver.switchTo().alert().getText());
 	}
-	
 
 	public void afterAlertAccept(WebDriver driver) {
 		Reporter.log("alert accepted");
 		TestListener.test.log(LogStatus.INFO, "alert accepted");
 	}
-	
 
 	public void afterAlertDismiss(WebDriver driver) {
 		Reporter.log("alert came " + driver.switchTo().alert().getText());
@@ -82,17 +80,17 @@ public class Listener implements WebDriverEventListener {
 
 	public void afterFindBy(By by, WebElement element, WebDriver driver) {
 		Reporter.log("element located succesfully");
-		TestListener.test.log(LogStatus.INFO,"element located succesfully");
+		TestListener.test.log(LogStatus.INFO, "element located succesfully");
 	}
 
 	public void beforeClickOn(WebElement element, WebDriver driver) {
 		Reporter.log("clicking on that element");
-		TestListener.test.log(LogStatus.INFO,"clicking on that element");
+		TestListener.test.log(LogStatus.INFO, "clicking on that element");
 	}
 
 	public void afterClickOn(WebElement element, WebDriver driver) {
 		Reporter.log("element clicked");
-		TestListener.test.log(LogStatus.INFO,"element clicked");
+		TestListener.test.log(LogStatus.INFO, "element clicked");
 	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {

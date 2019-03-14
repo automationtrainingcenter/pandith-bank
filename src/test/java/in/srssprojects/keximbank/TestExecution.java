@@ -24,7 +24,8 @@ public class TestExecution extends BaseClass {
 	String alertText;
 	ExcelHelper excel;
 
-	@Test(priority = 1, groups = {"datadriven", "role", "employee", "branch", "cancel", "valid", "reset", "invalid", "create" })
+	@Test(priority = 1, groups = { "datadriven", "role", "employee", "branch", "cancel", "valid", "reset", "invalid",
+			"create" })
 	public void loginTest() {
 		bankHomePageObj.fillUserName("Admin");
 		bankHomePageObj.fillPasword("Admin");
@@ -33,7 +34,7 @@ public class TestExecution extends BaseClass {
 		Assert.assertTrue(adminHomePageObj.isAdminHomePageDisplayed());
 	}
 
-	@Test(priority = 2, groups = { "role", "create", "valid",  })
+	@Test(priority = 2, groups = { "role", "create", "valid", })
 	public void createRole() {
 		roleDetailsPageObj = adminHomePageObj.clickRoles();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRole();
@@ -291,7 +292,8 @@ public class TestExecution extends BaseClass {
 		Assert.assertTrue(validateAlertText(alertText, "created Sucessfully"));
 	}
 
-	@AfterClass(groups = { "datadriven","role", "employee", "branch", "cancel", "valid", "reset", "invalid", "create" })
+	@AfterClass(groups = { "datadriven", "role", "employee", "branch", "cancel", "valid", "reset", "invalid",
+			"create" })
 	public void closeBrowser() {
 		adminHomePageObj.clickLogout();
 		driver.close();

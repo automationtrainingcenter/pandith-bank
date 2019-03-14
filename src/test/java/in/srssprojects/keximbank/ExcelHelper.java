@@ -42,7 +42,7 @@ public class ExcelHelper {
 		CellType cType = cell.getCellTypeEnum();
 		switch (cType) {
 		case NUMERIC:
-			data = (int)cell.getNumericCellValue();
+			data = (int) cell.getNumericCellValue();
 			break;
 		case STRING:
 			data = cell.getStringCellValue();
@@ -52,23 +52,19 @@ public class ExcelHelper {
 		}
 		return data.toString();
 	}
-	
+
 	public String[][] getExcelData(String fileName, String sheetName) {
 		setExcelToReadData(fileName, sheetName);
 		int nor = getRowCount();
 		int noc = getCellCount();
 		String[][] data = new String[nor][noc];
-		for(int r = 0; r<nor; r++) {
-			for(int c = 0; c < noc; c++) {
-				data[r][c] = readData(r+1, c);
+		for (int r = 0; r < nor; r++) {
+			for (int c = 0; c < noc; c++) {
+				data[r][c] = readData(r + 1, c);
 			}
 		}
-		
+
 		return data;
 	}
-	
-	
-	
-	
 
 }

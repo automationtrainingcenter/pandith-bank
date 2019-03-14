@@ -124,6 +124,7 @@ public class BranchCreationPage {
 	public void clickrest() {
 		this.clickrest.click();
 	}
+
 // click on cancel
 	public BranchDetailsPage clickcancel() {
 		this.clickcan.click();

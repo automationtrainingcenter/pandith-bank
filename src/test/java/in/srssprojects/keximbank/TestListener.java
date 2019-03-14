@@ -17,7 +17,7 @@ import com.relevantcodes.extentreports.LogStatus;
 public class TestListener implements ISuiteListener, ITestListener {
 	static ExtentReports report;
 	static ExtentTest test;
-	
+
 	// get date and time
 	public String getDateTime() {
 		Date date = new Date();
@@ -45,7 +45,7 @@ public class TestListener implements ISuiteListener, ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		test.log(LogStatus.FAIL, "test case failed");
-		String imgPath = BaseClass.captureAlertScreen("screenshots", result.getName()+getDateTime()+".png");
+		String imgPath = BaseClass.captureAlertScreen("screenshots", result.getName() + getDateTime() + ".png");
 		test.log(LogStatus.INFO, test.addScreenCapture(imgPath));
 		report.endTest(test);
 	}

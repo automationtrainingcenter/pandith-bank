@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="11" total="18" passed="6">
+<testng-results skipped="0" failed="1" ignored="28" total="36" passed="7">
   <reporter-output>
     <line>
       <![CDATA[locating an element usin By.id: txtuId]]>
@@ -135,48 +135,6 @@
     </line>
     <line>
       <![CDATA[locating an element usin By.id: txtRname]]>
-    </line>
-    <line>
-      <![CDATA[element located succesfully]]>
-    </line>
-    <line>
-      <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']]]>
-    </line>
-    <line>
-      <![CDATA[element located succesfully]]>
-    </line>
-    <line>
-      <![CDATA[clicking on that element]]>
-    </line>
-    <line>
-      <![CDATA[element clicked]]>
-    </line>
-    <line>
-      <![CDATA[locating an element usin By.id: btnRoles]]>
-    </line>
-    <line>
-      <![CDATA[element located succesfully]]>
-    </line>
-    <line>
-      <![CDATA[clicking on that element]]>
-    </line>
-    <line>
-      <![CDATA[element clicked]]>
-    </line>
-    <line>
-      <![CDATA[locating an element usin by id or name "Btn_cancel"]]>
-    </line>
-    <line>
-      <![CDATA[element located succesfully]]>
-    </line>
-    <line>
-      <![CDATA[clicking on that element]]>
-    </line>
-    <line>
-      <![CDATA[element clicked]]>
-    </line>
-    <line>
-      <![CDATA[locating an element usin By.id: btnRoles]]>
     </line>
     <line>
       <![CDATA[element located succesfully]]>
@@ -380,42 +338,6 @@
       <![CDATA[element clicked]]>
     </line>
     <line>
-      <![CDATA[locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']]]>
-    </line>
-    <line>
-      <![CDATA[element located succesfully]]>
-    </line>
-    <line>
-      <![CDATA[clicking on that element]]>
-    </line>
-    <line>
-      <![CDATA[element clicked]]>
-    </line>
-    <line>
-      <![CDATA[locating an element usin By.id: BtnNewBR]]>
-    </line>
-    <line>
-      <![CDATA[element located succesfully]]>
-    </line>
-    <line>
-      <![CDATA[clicking on that element]]>
-    </line>
-    <line>
-      <![CDATA[element clicked]]>
-    </line>
-    <line>
-      <![CDATA[locating an element usin By.id: Btn_cancel]]>
-    </line>
-    <line>
-      <![CDATA[element located succesfully]]>
-    </line>
-    <line>
-      <![CDATA[clicking on that element]]>
-    </line>
-    <line>
-      <![CDATA[element clicked]]>
-    </line>
-    <line>
       <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']]]>
     </line>
     <line>
@@ -435,6 +357,15 @@
     </line>
     <line>
       <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtuId]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
     </line>
     <line>
       <![CDATA[element clicked]]>
@@ -521,10 +452,133 @@
       <![CDATA[clicking on that element]]>
     </line>
     <line>
+      <![CDATA[element value changed toAdmin]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: txtPword]]>
+    </line>
+    <line>
       <![CDATA[element clicked]]>
     </line>
     <line>
       <![CDATA[locating an element usin By.id: btnreset]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[changing element value]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element value changed toAdmin]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: login]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='home.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='home.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: btnRoles]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin by id or name "Btn_cancel"]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: btnRoles]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: BtnNewBR]]>
+    </line>
+    <line>
+      <![CDATA[element located succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element usin By.id: Btn_cancel]]>
     </line>
     <line>
       <![CDATA[element located succesfully]]>
@@ -584,61 +638,92 @@
       <![CDATA[element clicked]]>
     </line>
   </reporter-output>
-  <suite name="groups suite" duration-ms="41219" started-at="2019-03-12T10:04:41Z" finished-at="2019-03-12T10:05:22Z">
+  <suite name="grid suite" duration-ms="45200" started-at="2019-03-14T10:21:18Z" finished-at="2019-03-14T10:22:03Z">
     <groups>
-      <group name="cancel">
-        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- cancel -->
       <group name="valid">
-        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- valid -->
+      <group name="cancel">
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- cancel -->
       <group name="datadriven">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- datadriven -->
       <group name="role">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- role -->
       <group name="invalid">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- invalid -->
       <group name="reset">
-        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- reset -->
       <group name="create">
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- create -->
       <group name="employee">
-        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeResetData()[pri:17, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="employeeResetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeecancelData()[pri:18, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="employeecancelData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- employee -->
       <group name="branch">
-        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
-        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.resetData()[pri:12, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="resetData" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.creationCancel()[pri:13, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="creationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- branch -->
     </groups>
-    <test name="groups test" duration-ms="41219" started-at="2019-03-12T10:04:41Z" finished-at="2019-03-12T10:05:22Z">
-      <class name="in.srssprojects.keximbank.BasicExecution">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="browserLaunch" is-config="true" duration-ms="9157" started-at="2019-03-12T10:04:41Z" finished-at="2019-03-12T10:04:50Z">
+    <test name="suray test" duration-ms="29889" started-at="2019-03-14T10:21:18Z" finished-at="2019-03-14T10:21:48Z">
+      <class name="in.srssprojects.keximbank.GridExecution">
+        <test-method status="PASS" signature="browserLaunch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="browserLaunch" is-config="true" duration-ms="11475" started-at="2019-03-14T10:21:18Z" finished-at="2019-03-14T10:21:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.srssprojects.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://192.168.1.21:46460/wd/hub]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="loginTest" duration-ms="3195" started-at="2019-03-12T10:04:50Z" finished-at="2019-03-12T10:04:53Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="loginTest" duration-ms="2428" started-at="2019-03-14T10:21:30Z" finished-at="2019-03-14T10:21:32Z">
           <reporter-output>
             <line>
               <![CDATA[locating an element usin By.id: txtuId]]>
@@ -684,7 +769,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="roleCreationReset" duration-ms="2809" started-at="2019-03-12T10:04:53Z" finished-at="2019-03-12T10:04:56Z">
+        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="roleCreationReset" duration-ms="3007" started-at="2019-03-14T10:21:32Z" finished-at="2019-03-14T10:21:35Z">
           <reporter-output>
             <line>
               <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']]]>
@@ -784,53 +869,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- roleCreationReset -->
-        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="roleCreationCancel" duration-ms="1298" started-at="2019-03-12T10:04:56Z" finished-at="2019-03-12T10:04:57Z">
-          <reporter-output>
-            <line>
-              <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']]]>
-            </line>
-            <line>
-              <![CDATA[element located succesfully]]>
-            </line>
-            <line>
-              <![CDATA[clicking on that element]]>
-            </line>
-            <line>
-              <![CDATA[element clicked]]>
-            </line>
-            <line>
-              <![CDATA[locating an element usin By.id: btnRoles]]>
-            </line>
-            <line>
-              <![CDATA[element located succesfully]]>
-            </line>
-            <line>
-              <![CDATA[clicking on that element]]>
-            </line>
-            <line>
-              <![CDATA[element clicked]]>
-            </line>
-            <line>
-              <![CDATA[locating an element usin by id or name "Btn_cancel"]]>
-            </line>
-            <line>
-              <![CDATA[element located succesfully]]>
-            </line>
-            <line>
-              <![CDATA[clicking on that element]]>
-            </line>
-            <line>
-              <![CDATA[element clicked]]>
-            </line>
-            <line>
-              <![CDATA[locating an element usin By.id: btnRoles]]>
-            </line>
-            <line>
-              <![CDATA[element located succesfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- roleCreationCancel -->
-        <test-method status="PASS" signature="resetData()[pri:12, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="resetData" duration-ms="6468" started-at="2019-03-12T10:04:57Z" finished-at="2019-03-12T10:05:04Z">
+        <test-method status="PASS" signature="resetData()[pri:12, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="resetData" duration-ms="5013" started-at="2019-03-14T10:21:35Z" finished-at="2019-03-14T10:21:40Z">
           <reporter-output>
             <line>
               <![CDATA[locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']]]>
@@ -1032,47 +1071,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resetData -->
-        <test-method status="PASS" signature="creationCancel()[pri:13, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="creationCancel" duration-ms="1817" started-at="2019-03-12T10:05:04Z" finished-at="2019-03-12T10:05:06Z">
-          <reporter-output>
-            <line>
-              <![CDATA[locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']]]>
-            </line>
-            <line>
-              <![CDATA[element located succesfully]]>
-            </line>
-            <line>
-              <![CDATA[clicking on that element]]>
-            </line>
-            <line>
-              <![CDATA[element clicked]]>
-            </line>
-            <line>
-              <![CDATA[locating an element usin By.id: BtnNewBR]]>
-            </line>
-            <line>
-              <![CDATA[element located succesfully]]>
-            </line>
-            <line>
-              <![CDATA[clicking on that element]]>
-            </line>
-            <line>
-              <![CDATA[element clicked]]>
-            </line>
-            <line>
-              <![CDATA[locating an element usin By.id: Btn_cancel]]>
-            </line>
-            <line>
-              <![CDATA[element located succesfully]]>
-            </line>
-            <line>
-              <![CDATA[clicking on that element]]>
-            </line>
-            <line>
-              <![CDATA[element clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- creationCancel -->
-        <test-method status="FAIL" signature="employeeResetData()[pri:17, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="employeeResetData" duration-ms="8374" started-at="2019-03-12T10:05:06Z" finished-at="2019-03-12T10:05:14Z">
+        <test-method status="FAIL" signature="employeeResetData()[pri:17, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="employeeResetData" duration-ms="5000" started-at="2019-03-14T10:21:40Z" finished-at="2019-03-14T10:21:45Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -1083,7 +1082,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.employeeResetData(TestExecution.java:237)
+at in.srssprojects.keximbank.TestExecution.employeeResetData(TestExecution.java:238)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1097,18 +1096,13 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -1235,7 +1229,185 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- employeeResetData -->
-        <test-method status="PASS" signature="employeecancelData()[pri:18, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="employeecancelData" duration-ms="5975" started-at="2019-03-12T10:05:15Z" finished-at="2019-03-12T10:05:21Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.GridExecution@548e7350]" name="closeBrowser" is-config="true" duration-ms="2468" started-at="2019-03-14T10:21:46Z" finished-at="2019-03-14T10:21:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[locating an element usin By.xpath: //a[@href='home.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.srssprojects.keximbank.GridExecution -->
+    </test> <!-- suray test -->
+    <test name="sonali test" duration-ms="45200" started-at="2019-03-14T10:21:18Z" finished-at="2019-03-14T10:22:03Z">
+      <class name="in.srssprojects.keximbank.GridExecution">
+        <test-method status="PASS" signature="browserLaunch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="browserLaunch" is-config="true" duration-ms="24022" started-at="2019-03-14T10:21:18Z" finished-at="2019-03-14T10:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.srssprojects.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://192.168.1.33:9343/wd/hub]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="loginTest" duration-ms="4510" started-at="2019-03-14T10:21:42Z" finished-at="2019-03-14T10:21:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[locating an element usin By.id: txtuId]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed toAdmin]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: txtPword]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[changing element value]]>
+            </line>
+            <line>
+              <![CDATA[element value changed toAdmin]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: login]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.xpath: //a[@href='home.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="roleCreationCancel" duration-ms="4487" started-at="2019-03-14T10:21:47Z" finished-at="2019-03-14T10:21:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: btnRoles]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin by id or name "Btn_cancel"]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: btnRoles]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- roleCreationCancel -->
+        <test-method status="PASS" signature="creationCancel()[pri:13, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="creationCancel" duration-ms="2617" started-at="2019-03-14T10:21:51Z" finished-at="2019-03-14T10:21:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: BtnNewBR]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element usin By.id: Btn_cancel]]>
+            </line>
+            <line>
+              <![CDATA[element located succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- creationCancel -->
+        <test-method status="PASS" signature="employeecancelData()[pri:18, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="employeecancelData" duration-ms="8359" started-at="2019-03-14T10:21:54Z" finished-at="2019-03-14T10:22:02Z">
           <reporter-output>
             <line>
               <![CDATA[locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']]]>
@@ -1275,7 +1447,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- employeecancelData -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.BasicExecution@1794d431]" name="closeBrowser" is-config="true" duration-ms="1285" started-at="2019-03-12T10:05:21Z" finished-at="2019-03-12T10:05:22Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.srssprojects.keximbank.GridExecution@6e06451e]" name="closeBrowser" is-config="true" duration-ms="1174" started-at="2019-03-14T10:22:02Z" finished-at="2019-03-14T10:22:03Z">
           <reporter-output>
             <line>
               <![CDATA[locating an element usin By.xpath: //a[@href='home.aspx']]]>
@@ -1291,7 +1463,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- in.srssprojects.keximbank.BasicExecution -->
-    </test> <!-- groups test -->
-  </suite> <!-- groups suite -->
+      </class> <!-- in.srssprojects.keximbank.GridExecution -->
+    </test> <!-- sonali test -->
+  </suite> <!-- grid suite -->
 </testng-results>

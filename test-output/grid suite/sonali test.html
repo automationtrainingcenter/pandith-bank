@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  sonali test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>sonali test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 14 15:51:18 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>45 seconds (45200 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>cancel </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='in.srssprojects.keximbank.GridExecution.creationCancel()'><b>creationCancel</b><br>Test class: in.srssprojects.keximbank.GridExecution<br/>
+<a href="#Output-1884416800" onClick='toggleBox("Output-1884416800", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1884416800" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1884416800">
+locating an element usin By.xpath: //a[@href='admin_banker_master.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: BtnNewBR<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: Btn_cancel<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>in.srssprojects.keximbank.GridExecution@6e06451e</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.GridExecution.employeecancelData()'><b>employeecancelData</b><br>Test class: in.srssprojects.keximbank.GridExecution<br/>
+<a href="#Output-247262440" onClick='toggleBox("Output-247262440", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-247262440" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-247262440">
+locating an element usin By.xpath: //a[@href='Admin_Emp_details.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: BtnNew<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnCancel<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>in.srssprojects.keximbank.GridExecution@6e06451e</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.GridExecution.loginTest()'><b>loginTest</b><br>Test class: in.srssprojects.keximbank.GridExecution<br/>
+<a href="#Output-930841685" onClick='toggleBox("Output-930841685", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-930841685" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-930841685">
+locating an element usin By.id: txtuId<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toAdmin<br/>
+locating an element usin By.id: txtPword<br/>
+element located succesfully<br/>
+changing element value<br/>
+element value changed toAdmin<br/>
+locating an element usin By.id: login<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.xpath: //a[@href='home.aspx']<br/>
+element located succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>in.srssprojects.keximbank.GridExecution@6e06451e</td></tr>
+<tr>
+<td title='in.srssprojects.keximbank.GridExecution.roleCreationCancel()'><b>roleCreationCancel</b><br>Test class: in.srssprojects.keximbank.GridExecution<br/>
+<a href="#Output-775201739" onClick='toggleBox("Output-775201739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-775201739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-775201739">
+locating an element usin By.xpath: //a[@href='Admin_Roles_details.aspx']<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnRoles<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin by id or name "Btn_cancel"<br/>
+element located succesfully<br/>
+clicking on that element<br/>
+element clicked<br/>
+locating an element usin By.id: btnRoles<br/>
+element located succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>in.srssprojects.keximbank.GridExecution@6e06451e</td></tr>
+</table><p>
+</body>
+</html>
